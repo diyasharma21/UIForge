@@ -1,0 +1,2934 @@
+import { TemplateConfig } from '../../types';
+
+export const EDUCATION_TEMPLATES: TemplateConfig[] = [
+  {
+    "id": "edu-standrews-01",
+    "slug": "st-andrews-international-academy",
+    "name": "St. Andrews International Academy",
+    "description": "Prestigious K-12 IB World School offering bilingual diploma programs, robotics labs, and athletic grounds.",
+    "industryId": "education",
+    "categoryId": "international-school",
+    "collectionId": "modern-school",
+    "designStyle": "academic-classic",
+    "featured": true,
+    "tags": [
+      "ib school",
+      "international school",
+      "k12",
+      "bilingual",
+      "curriculum",
+      "admissions"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed1-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "ST. ANDREWS ACADEMY",
+          "badge": "IB World School",
+          "primaryButtonText": "Apply for Admissions",
+          "primaryButtonLink": "#admissions",
+          "navLinks": [
+            {
+              "label": "Curriculum",
+              "href": "#academics"
+            },
+            {
+              "label": "Campus Life",
+              "href": "#campus"
+            },
+            {
+              "label": "Faculty",
+              "href": "#faculty"
+            },
+            {
+              "label": "Tuition & Aid",
+              "href": "#tuition"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed1-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Celebrating 120 Years of Academic Distinction",
+          "title": "Inspiring Global Citizens. Cultivating Intellectual Courage.",
+          "subtitle": "From our Reggio Emilia early years to the rigorous International Baccalaureate Diploma, we empower students to discover their highest potential in a supportive, multicultural community.",
+          "primaryButtonText": "Book a Campus Tour",
+          "primaryButtonLink": "#tour",
+          "secondaryButtonText": "Download Prospectus",
+          "secondaryButtonLink": "#prospectus",
+          "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "s1",
+              "label": "Average IB Score",
+              "value": "38.4 Pts"
+            },
+            {
+              "id": "s2",
+              "label": "Ivy League & Oxbridge",
+              "value": "34%"
+            },
+            {
+              "id": "s3",
+              "label": "Student Nationalities",
+              "value": "62 Countries"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed1-courses",
+        "type": "course-catalog",
+        "variant": "courses-grid",
+        "visible": true,
+        "content": {
+          "badge": "Academic Stages",
+          "title": "Four Distinct Developmental Stages",
+          "subtitle": "A continuous educational progression fostering creativity, inquiry, and critical analysis.",
+          "items": [
+            {
+              "id": "c1",
+              "title": "Early Years (Ages 3-5)",
+              "description": "Reggio Emilia play-based inquiry developing foundational literacy, numeracy, and emotional intelligence.",
+              "meta": "Reggio Emilia Framework"
+            },
+            {
+              "id": "c2",
+              "title": "Primary Years Program (PYP)",
+              "description": "Transdisciplinary units of inquiry building conceptual understanding across sciences, languages, and math.",
+              "meta": "Grades 1-5"
+            },
+            {
+              "id": "c3",
+              "title": "Middle Years Program (MYP)",
+              "description": "Interdisciplinary projects, design challenges, and foreign language acquisition preparing for senior diploma.",
+              "meta": "Grades 6-10"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed1-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "badge": "Admissions Open for Autumn Term",
+          "title": "Join a Vibrant Academic Community Driven by Curiosity",
+          "description": "Applications are reviewed on a rolling basis. Financial aid and merit scholarships available for exceptional candidates.",
+          "primaryButtonText": "Start Online Application",
+          "primaryButtonLink": "#admissions"
+        }
+      },
+      {
+        "id": "ed1-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "St. Andrews International Academy",
+          "description": "One Scholar Way, Boston, MA 02115",
+          "copyrightText": "© 2026 St. Andrews International Academy. Accredited by NEASC & CIS.",
+          "footerColumns": [
+            {
+              "title": "Academics",
+              "links": [
+                {
+                  "label": "IB Diploma",
+                  "href": "#"
+                },
+                {
+                  "label": "STEM Lab",
+                  "href": "#"
+                }
+              ]
+            },
+            {
+              "title": "Admissions",
+              "links": [
+                {
+                  "label": "Tuition Fees",
+                  "href": "#"
+                },
+                {
+                  "label": "Campus Tours",
+                  "href": "#"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-oxford-02",
+    "slug": "oxford-collegiate-heritage",
+    "name": "Oxford Collegiate Institute of Higher Learning",
+    "description": "Historic collegiate university featuring tutorial pedagogy, research endowments, residential colleges, and graduate fellowships.",
+    "industryId": "education",
+    "categoryId": "university",
+    "collectionId": "scholarly-legacy",
+    "designStyle": "academic-classic",
+    "featured": true,
+    "tags": [
+      "university",
+      "higher education",
+      "research",
+      "collegiate",
+      "fellowships",
+      "oxford"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed2-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "OXFORD COLLEGIATE INSTITUTE",
+          "primaryButtonText": "Admissions Portal",
+          "primaryButtonLink": "#apply",
+          "navLinks": [
+            {
+              "label": "Faculties",
+              "href": "#faculties"
+            },
+            {
+              "label": "Colleges",
+              "href": "#colleges"
+            },
+            {
+              "label": "Research",
+              "href": "#research"
+            },
+            {
+              "label": "Libraries",
+              "href": "#libraries"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed2-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Founded 1842 • Scholastic Heritage",
+          "title": "Where Generations of Thinkers Reshape the World",
+          "subtitle": "Individual tutorial supervision, seven residential colleges, and $1.4B in annual funded scientific research spanning artificial intelligence to humanities.",
+          "primaryButtonText": "Undergraduate Admissions",
+          "primaryButtonLink": "#apply",
+          "secondaryButtonText": "Postgraduate Fellowships",
+          "secondaryButtonLink": "#grad",
+          "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "st1",
+              "label": "Nobel Laureates",
+              "value": "28 Alumni"
+            },
+            {
+              "id": "st2",
+              "label": "Student-to-Faculty Ratio",
+              "value": "6:1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed2-courses",
+        "type": "course-catalog",
+        "variant": "courses-grid",
+        "visible": true,
+        "content": {
+          "title": "Signature Degree Programs",
+          "items": [
+            {
+              "id": "u1",
+              "title": "Philosophy, Politics & Economics (PPE)",
+              "description": "The premier interdisciplinary degree examining ethical governance and macroeconomic frameworks."
+            },
+            {
+              "id": "u2",
+              "title": "Computer Science & Mathematical Logic",
+              "description": "Theoretical computing, quantum algorithms, and computational complexity theory."
+            },
+            {
+              "id": "u3",
+              "title": "Biomedical Sciences & Genetics",
+              "description": "Translational laboratory medicine targeting CRISPR editing and infectious disease surveillance."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed2-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Shape the Future of Scholarship",
+          "description": "Applications for Michaelmas Term are now being accepted.",
+          "primaryButtonText": "Submit Application via UCAS",
+          "primaryButtonLink": "#apply"
+        }
+      },
+      {
+        "id": "ed2-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Oxford Collegiate Institute",
+          "copyrightText": "© 2026 Oxford Collegiate Institute. Royal Charter 1842."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-code-01",
+    "slug": "devforge-coding-bootcamp",
+    "name": "DevForge Full-Stack Software Accelerator",
+    "description": "Immersive 16-week software engineering bootcamp covering React, TypeScript, Node.js, distributed systems, and real production deploys.",
+    "industryId": "education",
+    "categoryId": "coding-bootcamp",
+    "collectionId": "tech-bootcamp",
+    "designStyle": "dark-cinematic",
+    "featured": true,
+    "tags": [
+      "coding bootcamp",
+      "software engineering",
+      "typescript",
+      "react",
+      "web development"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed3-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "DEVFORGE",
+          "badge": "96% Hired in 180 Days",
+          "primaryButtonText": "Apply Now (Free Test)",
+          "primaryButtonLink": "#apply",
+          "navLinks": [
+            {
+              "label": "Syllabus",
+              "href": "#syllabus"
+            },
+            {
+              "label": "Outcomes",
+              "href": "#outcomes"
+            },
+            {
+              "label": "Tuition & ISA",
+              "href": "#tuition"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed3-hero",
+        "type": "hero",
+        "variant": "hero-cinematic-dark",
+        "visible": true,
+        "content": {
+          "badge": "Zero Fluff • Production Code Only",
+          "title": "Become a Senior-Trajectory Full-Stack Engineer in 16 Weeks",
+          "subtitle": "Build and ship real distributed cloud applications. Daily PR reviews, algorithmic data structures, and direct hiring pipelines into top tech firms.",
+          "primaryButtonText": "View 16-Week Curriculum",
+          "primaryButtonLink": "#syllabus",
+          "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "bc1",
+              "label": "Average Graduate Salary",
+              "value": "$112,000"
+            },
+            {
+              "id": "bc2",
+              "label": "Hiring Partners",
+              "value": "450+ Tech Cos"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed3-srv",
+        "type": "services",
+        "variant": "services-bento",
+        "visible": true,
+        "content": {
+          "title": "Curriculum Pillars",
+          "items": [
+            {
+              "id": "cp1",
+              "title": "Frontend Architecture: React & TypeScript",
+              "description": "Component design patterns, Zustand, Tailwind, Vite, and end-to-end testing with Playwright."
+            },
+            {
+              "id": "cp2",
+              "title": "Cloud Backend: Node, Go & PostgreSQL",
+              "description": "REST, GraphQL, microservices, Redis caching, indexing, and Docker container orchestration."
+            },
+            {
+              "id": "cp3",
+              "title": "System Design & Algorithm Mastery",
+              "description": "Scalability architectures, message brokers, Kafka, LeetCode patterns, and mock interviews."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed3-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Next Cohort Starts in 3 Weeks — Limited to 24 Seats",
+          "description": "No prior degree required. Pass our introductory technical screening to lock in your cohort seat.",
+          "primaryButtonText": "Take Free 20-Min Coding Assessment",
+          "primaryButtonLink": "#apply"
+        }
+      },
+      {
+        "id": "ed3-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "DevForge Software Engineering Accelerator",
+          "copyrightText": "© 2026 DevForge Labs Inc. CIRR Verified Outcomes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-kinder-01",
+    "slug": "rainbow-pebble-kindergarten",
+    "name": "Rainbow Pebble Early Learning Academy",
+    "description": "Nurturing preschool and kindergarten emphasizing nature exploration, sensory play, early phonics, and emotional resilience.",
+    "industryId": "education",
+    "categoryId": "kindergarten",
+    "collectionId": "early-childhood",
+    "designStyle": "soft-pastel",
+    "tags": [
+      "kindergarten",
+      "preschool",
+      "early education",
+      "play-based",
+      "childcare"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed4-nav",
+        "type": "navbar",
+        "variant": "navbar-floating",
+        "visible": true,
+        "content": {
+          "title": "RAINBOW PEBBLE",
+          "primaryButtonText": "Schedule Visit",
+          "primaryButtonLink": "#visit",
+          "navLinks": [
+            {
+              "label": "Our Philosophy",
+              "href": "#about"
+            },
+            {
+              "label": "Classrooms",
+              "href": "#classrooms"
+            },
+            {
+              "label": "Daily Routine",
+              "href": "#routine"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed4-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Ages 2 to 6 • Forest & Play Learning",
+          "title": "Where Joyful Discovery Sparks a Lifelong Love of Learning",
+          "subtitle": "A sunlit, nurturing environment with certified early educators, organic garden lunches, and rich music, art, and storytelling everyday.",
+          "primaryButtonText": "Book a Family Tour",
+          "primaryButtonLink": "#visit",
+          "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "k1",
+              "label": "Educator to Child Ratio",
+              "value": "1:5"
+            },
+            {
+              "id": "k2",
+              "label": "Outdoor Garden Time",
+              "value": "2.5 Hrs Daily"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed4-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Our Nurturing Programs",
+          "items": [
+            {
+              "id": "kp1",
+              "title": "Little Explorers (Ages 2-3)",
+              "description": "Sensory discovery, gentle potty learning, language modeling, and social sharing songs."
+            },
+            {
+              "id": "kp2",
+              "title": "Junior Kindergarten (Ages 4-5)",
+              "description": "Phonemic awareness, foundational numeracy, science exploration, and emotional empathy."
+            },
+            {
+              "id": "kp3",
+              "title": "Nature & Garden Atelier",
+              "description": "Planting heirloom veggies, observing caterpillars, water play, and outdoor gross motor skills."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed4-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Enrolling for Summer Camp & Fall Term",
+          "description": "Come see our warm classrooms and outdoor mud kitchens during our Saturday morning open houses.",
+          "primaryButtonText": "Reserve Open House Spot",
+          "primaryButtonLink": "#visit"
+        }
+      },
+      {
+        "id": "ed4-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Rainbow Pebble Early Learning Academy",
+          "copyrightText": "© 2026 Rainbow Pebble Academy. Licensed Childcare Facility."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-mont-01",
+    "slug": "terra-montessori-childrens-house",
+    "name": "Terra Montessori Children's House",
+    "description": "Authentic AMI-recognized Montessori education fostering independent self-directed discovery in prepared natural environments.",
+    "industryId": "education",
+    "categoryId": "montessori-school",
+    "collectionId": "montessori",
+    "designStyle": "organic-natural",
+    "tags": [
+      "montessori",
+      "ami certified",
+      "child-centered",
+      "natural materials",
+      "early learning"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed5-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "TERRA MONTESSORI",
+          "badge": "AMI Certified",
+          "primaryButtonText": "Observe a Classroom",
+          "primaryButtonLink": "#observe",
+          "navLinks": [
+            {
+              "label": "The Prepared Environment",
+              "href": "#environment"
+            },
+            {
+              "label": "Toddler & Primary",
+              "href": "#programs"
+            },
+            {
+              "label": "Maria Montessori Method",
+              "href": "#method"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed5-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Association Montessori Internationale (AMI) Accredited",
+          "title": "Follow the Child. Nurture Independence and Deep Focus.",
+          "subtitle": "In our beautiful wood-and-plant prepared environments, children choose their own purposeful work, mastering sensorial geometry, practical life skills, and language at their own rhythm.",
+          "primaryButtonText": "Schedule Silent Observation",
+          "primaryButtonLink": "#observe",
+          "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "m1",
+              "label": "Uninterrupted Work Cycle",
+              "value": "3 Hours"
+            },
+            {
+              "id": "m2",
+              "label": "Certified AMI Guides",
+              "value": "100% Diploma"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed5-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Prepared Montessori Environments",
+          "items": [
+            {
+              "id": "mo1",
+              "title": "Infant Community (14-36 Months)",
+              "description": "Practical life coordination, language acquisition, and joyful autonomy in dressing and pouring."
+            },
+            {
+              "id": "mo2",
+              "title": "Children's House (Ages 3-6)",
+              "description": "Sensorial cylinder blocks, golden bead decimal systems, moveable alphabets, and botanical puzzles."
+            },
+            {
+              "id": "mo3",
+              "title": "Lower Elementary (Ages 6-9)",
+              "description": "The Five Great Lessons, cosmic education, cooperative research projects, and community outings."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed5-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Experience the Quiet Miracle of a Montessori Classroom",
+          "description": "Sit in on a morning work cycle and witness young children working with profound concentration and mutual grace.",
+          "primaryButtonText": "Book Classroom Observation",
+          "primaryButtonLink": "#observe"
+        }
+      },
+      {
+        "id": "ed5-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Terra Montessori Children's House",
+          "copyrightText": "© 2026 Terra Montessori Foundation. AMI Recognized School."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-lang-01",
+    "slug": "polyglot-lingua-institute",
+    "name": "Polyglot Lingua Cultural Institute",
+    "description": "Immersive foreign language school specializing in French, Spanish, Japanese, Mandarin, and German conversational fluency.",
+    "industryId": "education",
+    "categoryId": "language-institute",
+    "collectionId": "language-school",
+    "designStyle": "modern-corporate",
+    "tags": [
+      "languages",
+      "spanish",
+      "french",
+      "japanese",
+      "mandarin",
+      "immersion",
+      "fluency"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed6-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "POLYGLOT LINGUA",
+          "primaryButtonText": "Free Level Placement",
+          "primaryButtonLink": "#test",
+          "navLinks": [
+            {
+              "label": "Languages",
+              "href": "#languages"
+            },
+            {
+              "label": "Immersion Method",
+              "href": "#method"
+            },
+            {
+              "label": "Corporate Training",
+              "href": "#corporate"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed6-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Native Speaking Instructors • Small Cohorts",
+          "title": "Unlock the World Through Natural Language Fluency",
+          "subtitle": "Forget dry grammar drills. Our full-immersion conversational method has you speaking your target language on Day 1 in small groups of 6 students.",
+          "primaryButtonText": "Take 10-Min Level Test",
+          "primaryButtonLink": "#test",
+          "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "l1",
+              "label": "Languages Taught",
+              "value": "12 Languages"
+            },
+            {
+              "id": "l2",
+              "label": "CEFR Fluency Attainment",
+              "value": "92% Pass Rate"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed6-srv",
+        "type": "services",
+        "variant": "services-cards-accent",
+        "visible": true,
+        "content": {
+          "title": "Language Cohorts",
+          "items": [
+            {
+              "id": "lg1",
+              "title": "Conversational Fluency Tracks",
+              "description": "Intensive evening small-group immersion focusing on real-world dialogue, idiom, and cultural nuance."
+            },
+            {
+              "id": "lg2",
+              "title": "Official Exam Preparation (DELE, DELF, JLPT)",
+              "description": "Targeted test strategies and past-paper simulation for international government and university certification."
+            },
+            {
+              "id": "lg3",
+              "title": "Executive Global Business Language",
+              "description": "Custom sector-specific vocabulary for corporate cross-border negotiations and relocation."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed6-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Start Speaking a New Language Next Monday",
+          "description": "Try your first 60-minute conversational workshop completely free with no obligations.",
+          "primaryButtonText": "Claim Free Trial Class",
+          "primaryButtonLink": "#test"
+        }
+      },
+      {
+        "id": "ed6-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "Polyglot Lingua Cultural Institute",
+          "copyrightText": "© 2026 Polyglot Lingua Group. Accredited Language School."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-music-01",
+    "slug": "virtuoso-conservatory-music",
+    "name": "Virtuoso Conservatory of Music",
+    "description": "Classical and jazz music academy offering Steinway grand piano studios, violin masterclasses, vocal pedagogy, and orchestral performance.",
+    "industryId": "education",
+    "categoryId": "music-school",
+    "collectionId": "conservatory",
+    "designStyle": "luxury-editorial",
+    "tags": [
+      "music school",
+      "piano",
+      "violin",
+      "vocal",
+      "conservatory",
+      "classical music"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed7-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "VIRTUOSO CONSERVATORY",
+          "primaryButtonText": "Audition Request",
+          "primaryButtonLink": "#audition",
+          "navLinks": [
+            {
+              "label": "Disciplines",
+              "href": "#instruments"
+            },
+            {
+              "label": "Master Artists",
+              "href": "#faculty"
+            },
+            {
+              "label": "Concert Hall",
+              "href": "#events"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed7-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Juilliard & Curtis Trained Master Faculty",
+          "title": "Cultivating Artistry, Precision, and Musical Soul",
+          "subtitle": "From young prodigy foundational technique to pre-college conservatory diplomas, we cultivate lifelong acoustic virtuosity on concert-grade Steinway grands and handcrafted strings.",
+          "primaryButtonText": "Schedule Placement Audition",
+          "primaryButtonLink": "#audition",
+          "imageUrl": "https://images.unsplash.com/photo-1520523839898-507127053c18?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "m1",
+              "label": "Steinway Practice Studios",
+              "value": "24 Pianos"
+            },
+            {
+              "id": "m2",
+              "label": "Annual Student Concerts",
+              "value": "36 Recitals"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed7-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "title": "Musical Disciplines",
+          "items": [
+            {
+              "id": "mu1",
+              "title": "Classical Concert Piano Division",
+              "description": "Russian and French technique, sight-reading fluency, Bach polyphony, and Chopin romantic interpretation."
+            },
+            {
+              "id": "mu2",
+              "title": "Strings: Violin, Cello & Viola",
+              "description": "Galamian bow control, intonation perfection, Suzuki foundational repertoire, and chamber quartets."
+            },
+            {
+              "id": "mu3",
+              "title": "Bel Canto Vocal Pedagogy",
+              "description": "Diaphragmatic breath support, vocal registration, German lieder, and Italian operatic arias."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed7-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Begin Your Journey Toward Musical Mastery",
+          "description": "Auditions for the coming academic term are currently being scheduled with our artistic directors.",
+          "primaryButtonText": "Book an Audition",
+          "primaryButtonLink": "#audition"
+        }
+      },
+      {
+        "id": "ed7-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Virtuoso Conservatory of Music",
+          "copyrightText": "© 2026 Virtuoso Music Conservatory. Member of National Guild of Piano Teachers."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-art-01",
+    "slug": "atelier-fine-arts-academy",
+    "name": "Atelier Fine Arts & Sculpture Guild",
+    "description": "Classical atelier training in oil painting, cast drawing, figure anatomy, and bronze sculpture under master artists.",
+    "industryId": "education",
+    "categoryId": "art-school",
+    "collectionId": "fine-arts",
+    "designStyle": "editorial-magazine",
+    "tags": [
+      "art school",
+      "fine arts",
+      "oil painting",
+      "sculpture",
+      "drawing",
+      "classical realism"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed8-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "ATELIER FINE ARTS",
+          "primaryButtonText": "Studio Tours",
+          "primaryButtonLink": "#tour",
+          "navLinks": [
+            {
+              "label": "Curriculum",
+              "href": "#programs"
+            },
+            {
+              "label": "Student Gallery",
+              "href": "#gallery"
+            },
+            {
+              "label": "Workshops",
+              "href": "#workshops"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed8-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Sight-Size Academic Realism Method",
+          "title": "Learn the Timeless Grammar of Light, Form, and Pigment",
+          "subtitle": "Following the 19th-century French academy method, students master charcoal bargue plates, plaster cast drawing, live figure modeling, and indirect oil glazing.",
+          "primaryButtonText": "Explore Studio Programs",
+          "primaryButtonLink": "#programs",
+          "imageUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "a1",
+              "label": "North-Facing Natural Skylights",
+              "value": "14 Studios"
+            },
+            {
+              "id": "a2",
+              "label": "Master Instructors",
+              "value": "Award Winners"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed8-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Atelier Studio Programs",
+          "items": [
+            {
+              "id": "ar1",
+              "title": "Cast Drawing & Sight-Size Method",
+              "description": "Developing absolute precision of eye and hand before introducing color or fluid medium."
+            },
+            {
+              "id": "ar2",
+              "title": "Classical Figure Anatomy & Oil Painting",
+              "description": "Live model long-poses with grisaille underpainting and multi-layered translucent glazing."
+            },
+            {
+              "id": "ar3",
+              "title": "Classical Figurative Clay Sculpture",
+              "description": "Armature construction, bone landmarks, musculature gesture, and bronze casting foundry technique."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed8-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Ignite Your Artistic Craftsmanship",
+          "description": "Full-time diploma and evening part-time studio memberships available.",
+          "primaryButtonText": "Apply to the Atelier",
+          "primaryButtonLink": "#programs"
+        }
+      },
+      {
+        "id": "ed8-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Atelier Fine Arts & Sculpture Guild",
+          "copyrightText": "© 2026 Atelier Fine Arts Guild. All artistic rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-biz-01",
+    "slug": "vanguard-business-institute",
+    "name": "Vanguard Executive Business Institute",
+    "description": "Top-tier graduate business school offering Executive MBA, venture capital fellowships, and corporate strategy masterclasses.",
+    "industryId": "education",
+    "categoryId": "business-school",
+    "collectionId": "executive-education",
+    "designStyle": "modern-corporate",
+    "tags": [
+      "business school",
+      "mba",
+      "executive education",
+      "finance",
+      "leadership",
+      "strategy"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed9-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "VANGUARD BUSINESS",
+          "badge": "Ranked #1 Executive MBA",
+          "primaryButtonText": "Download Brochure",
+          "primaryButtonLink": "#brochure",
+          "navLinks": [
+            {
+              "label": "EMBA Program",
+              "href": "#emba"
+            },
+            {
+              "label": "Leadership Labs",
+              "href": "#labs"
+            },
+            {
+              "label": "Alumni Network",
+              "href": "#alumni"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed9-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "AACSB & EQUIS Triple Accredited",
+          "title": "Lead with Strategic Conviction in an Era of Disruption",
+          "subtitle": "An elite Executive MBA combining immersive case study analysis, algorithmic finance, AI operational strategy, and a global alumni network across 85 countries.",
+          "primaryButtonText": "Apply for Executive MBA",
+          "primaryButtonLink": "#apply",
+          "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "b1",
+              "label": "Average Post-MBA Compensation Increase",
+              "value": "+68%"
+            },
+            {
+              "id": "b2",
+              "label": "C-Suite Alumni Members",
+              "value": "4,200+"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed9-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Graduate Leadership Curricula",
+          "items": [
+            {
+              "id": "ba1",
+              "title": "Global Executive MBA",
+              "description": "Modular weekend formats in New York, London, and Singapore designed for working executives."
+            },
+            {
+              "id": "ba2",
+              "title": "Venture Capital & Private Equity Fellowship",
+              "description": "Live deal flow evaluation, cap table structuring, and direct investment syndicate creation."
+            },
+            {
+              "id": "ba3",
+              "title": "Artificial Intelligence for Boardrooms",
+              "description": "Navigating enterprise model deployment, compliance governance, and data moat construction."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed9-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Transform Your Executive Career Trajectory",
+          "description": "Submit your CV for a confidential profile pre-assessment with our admissions committee.",
+          "primaryButtonText": "Request Profile Evaluation",
+          "primaryButtonLink": "#apply"
+        }
+      },
+      {
+        "id": "ed9-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "Vanguard Executive Business Institute",
+          "copyrightText": "© 2026 Vanguard Business Institute. AACSB Accredited."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-law-01",
+    "slug": "blackstone-law-college",
+    "name": "Blackstone School of Jurisprudence",
+    "description": "Premier law school offering Juris Doctor (JD), LLM in Intellectual Property, moot court appellate advocacy, and constitutional clinics.",
+    "industryId": "education",
+    "categoryId": "law-college",
+    "collectionId": "law-school",
+    "designStyle": "academic-classic",
+    "tags": [
+      "law school",
+      "juris doctor",
+      "llm",
+      "moot court",
+      "legal studies"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed10-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "BLACKSTONE LAW",
+          "primaryButtonText": "JD Admissions",
+          "primaryButtonLink": "#admissions",
+          "navLinks": [
+            {
+              "label": "JD Program",
+              "href": "#jd"
+            },
+            {
+              "label": "Moot Court",
+              "href": "#moot"
+            },
+            {
+              "label": "Legal Clinics",
+              "href": "#clinics"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed10-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "ABA Accredited • Established 1886",
+          "title": "Defending Justice. Mastering the Rigor of the Law.",
+          "subtitle": "Intensive Socratic dialogue, world-class appellate moot court coaching, and hands-on legal clinics representing real clients in federal and state courts.",
+          "primaryButtonText": "Explore the JD Degree",
+          "primaryButtonLink": "#jd",
+          "imageUrl": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "lw1",
+              "label": "First-Time Bar Passage Rate",
+              "value": "96.4%"
+            },
+            {
+              "id": "lw2",
+              "label": "Federal Judicial Clerkships",
+              "value": "18% of Class"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed10-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Jurisprudence Programs",
+          "items": [
+            {
+              "id": "lw_s1",
+              "title": "Juris Doctor (JD) Degree",
+              "description": "Foundational torts, constitutional law, civil procedure, and advanced statutory interpretation."
+            },
+            {
+              "id": "lw_s2",
+              "title": "LLM in AI & Tech Regulation",
+              "description": "Specialized legal framework analyzing IP patents, algorithmic antitrust, and privacy mandates."
+            },
+            {
+              "id": "lw_s3",
+              "title": "Innocence & Appellate Advocacy Clinic",
+              "description": "Investigating wrongful convictions and authoring cert petitions to the Supreme Court."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed10-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Prepare to Advocate at the Highest Levels of the Bar",
+          "description": "Learn about LSAT medians, fee waivers, and early decision deadlines.",
+          "primaryButtonText": "Start JD Application via LSAC",
+          "primaryButtonLink": "#admissions"
+        }
+      },
+      {
+        "id": "ed10-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Blackstone School of Jurisprudence",
+          "copyrightText": "© 2026 Blackstone School of Law. ABA Accredited."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-flight-01",
+    "slug": "aerowings-flight-academy",
+    "name": "AeroWings Commercial Aviation Academy",
+    "description": "FAA Part 141 approved flight school with Glass Cockpit Cirrus SR20 fleet, multi-engine ratings, and airline direct hiring pipelines.",
+    "industryId": "education",
+    "categoryId": "vocational-training-center",
+    "collectionId": "aviation-academy",
+    "designStyle": "brutalist-clean",
+    "tags": [
+      "flight school",
+      "pilot license",
+      "aviation",
+      "commercial pilot",
+      "faa certified"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed11-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "AEROWINGS FLIGHT",
+          "badge": "FAA Part 141",
+          "primaryButtonText": "Intro Discovery Flight",
+          "primaryButtonLink": "#intro",
+          "navLinks": [
+            {
+              "label": "Zero to Airline Pilot",
+              "href": "#programs"
+            },
+            {
+              "label": "Fleet & Simulators",
+              "href": "#fleet"
+            },
+            {
+              "label": "Financing",
+              "href": "#financing"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed11-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Fast-Track Commercial Pilot License in 12 Months",
+          "title": "Take the Controls. Launch Your Career in the Sky.",
+          "subtitle": "Train in brand new Cirrus SR20 Garmin Perspective+ aircraft with full-motion Level D simulators and guaranteed direct interviews with major regional airlines.",
+          "primaryButtonText": "Book $199 Discovery Flight",
+          "primaryButtonLink": "#intro",
+          "imageUrl": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "av1",
+              "label": "Commercial Pilot Graduates",
+              "value": "3,800+"
+            },
+            {
+              "id": "av2",
+              "label": "Airline Placement Rate",
+              "value": "98.2%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed11-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Flight Rating Pathways",
+          "items": [
+            {
+              "id": "fl1",
+              "title": "Private Pilot License (PPL)",
+              "description": "Mastering cross-country navigation, stalls, emergency procedures, and solo airmanship."
+            },
+            {
+              "id": "fl2",
+              "title": "Instrument Rating (IFR)",
+              "description": "Sole reference to flight instruments through clouds, rain, and low-visibility precision approaches."
+            },
+            {
+              "id": "fl3",
+              "title": "Commercial Multi-Engine Rating",
+              "description": "Complex twin-engine systems, asymmetric thrust management, and high-speed aerodynamics."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed11-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Experience What It Feels Like to Fly an Airplane Yourself",
+          "description": "Step into the left seat with a certified flight instructor for a real 60-minute flight.",
+          "primaryButtonText": "Schedule Discovery Flight",
+          "primaryButtonLink": "#intro"
+        }
+      },
+      {
+        "id": "ed11-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "AeroWings Commercial Aviation Academy",
+          "copyrightText": "© 2026 AeroWings Academy. FAA Certified Part 141."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-eng-01",
+    "slug": "quantum-horizon-stem-college",
+    "name": "Quantum Horizon College of Engineering",
+    "description": "Premier polytechnic institute pioneering autonomous robotics, nanotech cleanrooms, aerospace dynamics, and quantum hardware.",
+    "industryId": "education",
+    "categoryId": "engineering-college",
+    "collectionId": "engineering-stem",
+    "designStyle": "technology-gradient",
+    "tags": [
+      "engineering",
+      "robotics",
+      "stem",
+      "quantum computing",
+      "nanotechnology",
+      "aerospace"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed12-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "QUANTUM HORIZON",
+          "primaryButtonText": "Apply to College",
+          "primaryButtonLink": "#apply",
+          "navLinks": [
+            {
+              "label": "Engineering Degrees",
+              "href": "#degrees"
+            },
+            {
+              "label": "Cleanrooms & Labs",
+              "href": "#labs"
+            },
+            {
+              "label": "Industry Co-ops",
+              "href": "#coop"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed12-hero",
+        "type": "hero",
+        "variant": "hero-cinematic-dark",
+        "visible": true,
+        "content": {
+          "badge": "ABET Accredited • Research Tier 1",
+          "title": "Engineering the Physical and Digital Frontiers of Tomorrow",
+          "subtitle": "From sub-atomic semiconductor fabrication to humanoid bipedal robotics, our students build real hardware from day one with $85M in industry grants.",
+          "primaryButtonText": "Explore Engineering Majors",
+          "primaryButtonLink": "#degrees",
+          "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "eg1",
+              "label": "Patents Filed by Students",
+              "value": "420+"
+            },
+            {
+              "id": "eg2",
+              "label": "Cleanroom Class",
+              "value": "ISO Class 5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed12-srv",
+        "type": "services",
+        "variant": "services-bento",
+        "visible": true,
+        "content": {
+          "title": "Advanced Engineering Departments",
+          "items": [
+            {
+              "id": "eg_s1",
+              "title": "Robotics & Autonomous Mechatronics",
+              "description": "LiDAR slam navigation, ROS 2 integration, and torque-dense motor actuator engineering."
+            },
+            {
+              "id": "eg_s2",
+              "title": "Semiconductor Fabrication & Cleanrooms",
+              "description": "E-beam lithography, thin-film deposition, and cryogenic quantum circuit testing."
+            },
+            {
+              "id": "eg_s3",
+              "title": "Aerospace & Propulsion Systems",
+              "description": "Rocket engine regenerative cooling, hypersonic wind tunnels, and CubeSat satellite deployment."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed12-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Build the Technology That Changes Human History",
+          "description": "Applications for the incoming freshman engineering class are now open.",
+          "primaryButtonText": "Apply for Engineering Admissions",
+          "primaryButtonLink": "#apply"
+        }
+      },
+      {
+        "id": "ed12-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Quantum Horizon College of Engineering",
+          "copyrightText": "© 2026 Quantum Horizon Institute. ABET Accredited."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-online-01",
+    "slug": "masterypath-learning-platform",
+    "name": "MasteryPath Micro-Credential Platform",
+    "description": "Self-paced asynchronous professional certifications in prompt engineering, UX architecture, cloud security, and product management.",
+    "industryId": "education",
+    "categoryId": "online-learning-platform",
+    "collectionId": "online-learning",
+    "designStyle": "glass-interface",
+    "tags": [
+      "online learning",
+      "edtech",
+      "certifications",
+      "micro-credentials",
+      "remote courses"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed13-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "MASTERYPATH",
+          "badge": "Skill-Verified Badges",
+          "primaryButtonText": "Start 7-Day Free Trial",
+          "primaryButtonLink": "#trial",
+          "navLinks": [
+            {
+              "label": "All Certificates",
+              "href": "#courses"
+            },
+            {
+              "label": "For Teams",
+              "href": "#enterprise"
+            },
+            {
+              "label": "Pricing",
+              "href": "#pricing"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed13-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Industry-Endorsed Credentials",
+          "title": "Learn In-Demand Modern Skills at Your Own Rhythm",
+          "subtitle": "Bite-sized video lessons taught by Silicon Valley senior operators, complete with interactive browser sandboxes and LinkedIn-verifiable credentials.",
+          "primaryButtonText": "Browse 150+ Micro-Courses",
+          "primaryButtonLink": "#courses",
+          "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "op1",
+              "label": "Active Learners Worldwide",
+              "value": "850,000+"
+            },
+            {
+              "id": "op2",
+              "label": "Course Completion Rate",
+              "value": "86%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed13-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Top Micro-Certifications",
+          "items": [
+            {
+              "id": "ol1",
+              "title": "Generative AI & LLM Systems Engineer",
+              "description": "Fine-tuning open models, RAG vector architectures, and LangChain orchestration pipelines."
+            },
+            {
+              "id": "ol2",
+              "title": "Enterprise Product Management",
+              "description": "North Star metrics, user story mapping, feature prioritization, and executive stakeholder buy-in."
+            },
+            {
+              "id": "ol3",
+              "title": "Zero-Trust Cloud Security Architect",
+              "description": "AWS IAM policies, Terraform infrastructure-as-code hardening, and SOC 2 compliance."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed13-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Level Up Your Tech & Product Skillset Today",
+          "description": "Unlimited access to all courses, projects, and career reviews for one simple monthly plan.",
+          "primaryButtonText": "Start Free Trial Now",
+          "primaryButtonLink": "#trial"
+        }
+      },
+      {
+        "id": "ed13-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "MasteryPath Micro-Credential Platform",
+          "copyrightText": "© 2026 MasteryPath Learning Inc. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-prep-01",
+    "slug": "scholars-edge-elite-prep",
+    "name": "Scholars Edge Elite University Prep",
+    "description": "Premier test preparation, SAT/ACT 99th percentile coaching, AP tutoring, and Ivy League admissions portfolio counseling.",
+    "industryId": "education",
+    "categoryId": "coaching-institute",
+    "collectionId": "exam-coaching",
+    "designStyle": "modern-corporate",
+    "tags": [
+      "sat prep",
+      "act tutoring",
+      "admissions consulting",
+      "ivy league",
+      "test prep"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed14-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "SCHOLARS EDGE PREP",
+          "primaryButtonText": "Diagnostic Test",
+          "primaryButtonLink": "#diagnostic",
+          "navLinks": [
+            {
+              "label": "SAT & ACT Prep",
+              "href": "#testprep"
+            },
+            {
+              "label": "Admissions Consulting",
+              "href": "#admissions"
+            },
+            {
+              "label": "Results & Medians",
+              "href": "#results"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed14-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Average +220 Point SAT Score Increase",
+          "title": "Unlock Admission to America’s Most Selective Universities",
+          "subtitle": "Personalized 1-on-1 tutoring by coaches who scored in the 99th percentile, combined with strategic extracurricular narrative building and essay polishing.",
+          "primaryButtonText": "Schedule Free Diagnostic Exam",
+          "primaryButtonLink": "#diagnostic",
+          "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "se1",
+              "label": "Average SAT Score of Students",
+              "value": "1540"
+            },
+            {
+              "id": "se2",
+              "label": "Ivy & Top 20 Acceptance Rate",
+              "value": "4.8x National"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed14-srv",
+        "type": "services",
+        "variant": "services-cards-accent",
+        "visible": true,
+        "content": {
+          "title": "Coaching Programs",
+          "items": [
+            {
+              "id": "se_s1",
+              "title": "Digital SAT & ACT Intensive Coaching",
+              "description": "Pattern recognition, timing strategies, and adaptive test algorithms tailored to each student."
+            },
+            {
+              "id": "se_s2",
+              "title": "Admissions Narrative & Common App Essay",
+              "description": "Brainstorming authentic hooks, personal statement drafting, and supplemental essay editing."
+            },
+            {
+              "id": "se_s3",
+              "title": "AP & IB STEM Mastery Tutoring",
+              "description": "Targeting 5s on AP Calculus BC, Physics C, and Chemistry with past exam practice."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed14-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Give Your Child the Decisive Academic Advantage",
+          "description": "Book a comprehensive diagnostic test and receiving a full strengths-and-weaknesses breakdown.",
+          "primaryButtonText": "Book Diagnostic Session",
+          "primaryButtonLink": "#diagnostic"
+        }
+      },
+      {
+        "id": "ed14-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Scholars Edge Elite University Prep",
+          "copyrightText": "© 2026 Scholars Edge Educational Consulting. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-dance-01",
+    "slug": "thespian-stage-dance-arts",
+    "name": "Thespian Stage & Dramatic Arts Academy",
+    "description": "Pre-professional classical ballet, contemporary dance, West End musical theatre, and Shakespearean acting conservatory.",
+    "industryId": "education",
+    "categoryId": "dance-academy",
+    "collectionId": "performing-arts",
+    "designStyle": "bold-creative",
+    "tags": [
+      "dance academy",
+      "ballet",
+      "theatre",
+      "acting",
+      "performing arts",
+      "musical theatre"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed15-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "THESPIAN STAGE ACADEMY",
+          "primaryButtonText": "Audition for Company",
+          "primaryButtonLink": "#audition",
+          "navLinks": [
+            {
+              "label": "Ballet & Dance",
+              "href": "#dance"
+            },
+            {
+              "label": "Musical Theatre",
+              "href": "#theatre"
+            },
+            {
+              "label": "Faculty",
+              "href": "#faculty"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed15-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "RAD & Vaganova Ballet Syllabus",
+          "title": "Where Discipline Meets Expressive Stage Power",
+          "subtitle": "Sprung Harlequin dance floors, masterclasses with Broadway artists, and full theatrical mainstage productions in our 450-seat proscenium theatre.",
+          "primaryButtonText": "Book Studio Audition",
+          "primaryButtonLink": "#audition",
+          "imageUrl": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "ts1",
+              "label": "Sprung Harlequin Studios",
+              "value": "6 Studios"
+            },
+            {
+              "id": "ts2",
+              "label": "Graduates in Pro Companies",
+              "value": "140+ Dancers"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed15-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Performing Arts Programs",
+          "items": [
+            {
+              "id": "ts_s1",
+              "title": "Pre-Professional Classical Ballet",
+              "description": "Vaganova pointe work, variations, partnering pas de deux, and annual Nutcracker performance."
+            },
+            {
+              "id": "ts_s2",
+              "title": "Musical Theatre & Vocal Repertoire",
+              "description": "Belt and legit vocal coaching, acting through song, and Broadway jazz choreography."
+            },
+            {
+              "id": "ts_s3",
+              "title": "Contemporary & Graham Technique",
+              "description": "Floor work, contraction and release, improvisation, and guest international choreographers."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed15-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Audition for Our Upcoming Season",
+          "description": "Accepting company dancers and musical theatre students ages 7 to 19.",
+          "primaryButtonText": "Submit Audition Reel",
+          "primaryButtonLink": "#audition"
+        }
+      },
+      {
+        "id": "ed15-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Thespian Stage & Dramatic Arts Academy",
+          "copyrightText": "© 2026 Thespian Stage Conservatory. RAD Certified."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-nursing-01",
+    "slug": "florence-nightingale-nursing",
+    "name": "Florence Nightingale Health Sciences College",
+    "description": "Accredited BSN nursing program, nurse practitioner master degrees, high-fidelity mannequin simulation labs, and clinical hospital rotations.",
+    "industryId": "education",
+    "categoryId": "nursing-college",
+    "collectionId": "nursing-health",
+    "designStyle": "medical-clean",
+    "tags": [
+      "nursing school",
+      "bsn",
+      "nurse practitioner",
+      "healthcare education",
+      "nclex"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed16-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "NIGHTINGALE HEALTH COLLEGE",
+          "badge": "CCNE Accredited",
+          "primaryButtonText": "Apply to BSN",
+          "primaryButtonLink": "#apply",
+          "navLinks": [
+            {
+              "label": "BSN Program",
+              "href": "#bsn"
+            },
+            {
+              "label": "Simulation Hospital",
+              "href": "#sim"
+            },
+            {
+              "label": "NCLEX Pass Rates",
+              "href": "#nclex"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed16-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "99.1% First-Time NCLEX-RN Pass Rate",
+          "title": "Educating Compassionate, Clinically Superb Nurse Leaders",
+          "subtitle": "Our 20,000 sq ft high-fidelity simulation hospital prepares nursing students for real critical care, pediatrics, and trauma rotations across 12 partner hospital systems.",
+          "primaryButtonText": "Download BSN Curriculum",
+          "primaryButtonLink": "#apply",
+          "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "fn1",
+              "label": "NCLEX-RN First-Time Pass Rate",
+              "value": "99.1%"
+            },
+            {
+              "id": "fn2",
+              "label": "Guaranteed Clinical Hospital Hours",
+              "value": "850+ Hours"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed16-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Health Sciences Degree Paths",
+          "items": [
+            {
+              "id": "fn_s1",
+              "title": "Bachelor of Science in Nursing (BSN)",
+              "description": "Direct-entry 4-year undergraduate degree with comprehensive clinical rotations in ICU and ER."
+            },
+            {
+              "id": "fn_s2",
+              "title": "Family Nurse Practitioner (FNP-MSN)",
+              "description": "Graduate advanced practice certification diagnosing, treating, and prescribing in primary care."
+            },
+            {
+              "id": "fn_s3",
+              "title": "High-Fidelity Simulation Center",
+              "description": "Robotic patient mannequins with physiologic responses, arterial pulses, and cardiac crises."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed16-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Answer the Call to Modern Healthcare Leadership",
+          "description": "Admissions are now open for the Spring cohort. Scholarships available.",
+          "primaryButtonText": "Apply to Nursing Program",
+          "primaryButtonLink": "#apply"
+        }
+      },
+      {
+        "id": "ed16-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Florence Nightingale Health Sciences College",
+          "copyrightText": "© 2026 Florence Nightingale Health Sciences. CCNE Accredited."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-design-01",
+    "slug": "bauhaus-design-institute",
+    "name": "Bauhaus Modern Industrial Design Guild",
+    "description": "Progressive design school focused on circular product design, physical prototyping, rapid 3D printing, and spatial user interaction.",
+    "industryId": "education",
+    "categoryId": "design-institute",
+    "collectionId": "industrial-design",
+    "designStyle": "brutalist-clean",
+    "tags": [
+      "design school",
+      "industrial design",
+      "prototyping",
+      "product design",
+      "cad"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed17-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "BAUHAUS GUILD",
+          "primaryButtonText": "Submit Portfolio",
+          "primaryButtonLink": "#portfolio",
+          "navLinks": [
+            {
+              "label": "Workshops",
+              "href": "#workshops"
+            },
+            {
+              "label": "Machine Labs",
+              "href": "#machines"
+            },
+            {
+              "label": "Exhibitions",
+              "href": "#exhibitions"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed17-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Form Follows Function • Material Honesty",
+          "title": "Designing Tangible Products for Human Living",
+          "subtitle": "We unite digital CAD modeling with CNC wood routers, metal foundries, and SLA 3D printing to create sustainable physical products that endure.",
+          "primaryButtonText": "Explore Degree Studios",
+          "primaryButtonLink": "#programs",
+          "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "bh1",
+              "label": "Prototyping Machine Hours",
+              "value": "24/7 Access"
+            },
+            {
+              "id": "bh2",
+              "label": "Red Dot Awards Won",
+              "value": "38 Honors"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed17-srv",
+        "type": "services",
+        "variant": "services-bento",
+        "visible": true,
+        "content": {
+          "title": "Studio Disciplines",
+          "items": [
+            {
+              "id": "bh_s1",
+              "title": "Industrial & Consumer Product Design",
+              "description": "Ergonomic form study, injection molding feasibility, and sustainable material lifecycle analysis."
+            },
+            {
+              "id": "bh_s2",
+              "title": "Spatial & Exhibition Architecture",
+              "description": "Ephemeral pavilions, museum installations, and transformative retail environments."
+            },
+            {
+              "id": "bh_s3",
+              "title": "Advanced Rapid Prototyping Workshop",
+              "description": "5-axis CNC milling, metal TIG welding, vacuum forming, and functional electronics integration."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed17-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Submit Your Design Portfolio for Review",
+          "description": "Our faculty review concept sketches, physical builds, and experimental design thinking.",
+          "primaryButtonText": "Start Application",
+          "primaryButtonLink": "#portfolio"
+        }
+      },
+      {
+        "id": "ed17-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Bauhaus Modern Industrial Design Guild",
+          "copyrightText": "© 2026 Bauhaus Industrial Design Guild. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-high-01",
+    "slug": "northfield-prep-high-school",
+    "name": "Northfield Prep Senior High School",
+    "description": "Challenging university-preparatory day and boarding school offering 28 Advanced Placement courses, championship athletics, and debate.",
+    "industryId": "education",
+    "categoryId": "secondary-school",
+    "collectionId": "prep-school",
+    "designStyle": "academic-classic",
+    "tags": [
+      "high school",
+      "prep school",
+      "ap courses",
+      "athletics",
+      "boarding school"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed18-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "NORTHFIELD PREP",
+          "primaryButtonText": "Admissions Info",
+          "primaryButtonLink": "#admissions",
+          "navLinks": [
+            {
+              "label": "Academics & AP",
+              "href": "#ap"
+            },
+            {
+              "label": "Athletics",
+              "href": "#sports"
+            },
+            {
+              "label": "Residential Life",
+              "href": "#boarding"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed18-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Grades 9-12 • Boarding & Day School",
+          "title": "Rigorous Academics. Character for a Lifetime of Leadership.",
+          "subtitle": "A historic 180-acre New England campus fostering intellectual rigor with 28 AP classes, varsity athletic programs, and an honor code of personal integrity.",
+          "primaryButtonText": "Plan a Campus Visit",
+          "primaryButtonLink": "#admissions",
+          "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "nf1",
+              "label": "Average SAT Score",
+              "value": "1460"
+            },
+            {
+              "id": "nf2",
+              "label": "Varsity State Championships",
+              "value": "46 Titles"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed18-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Preparatory Excellence",
+          "items": [
+            {
+              "id": "nf_s1",
+              "title": "28 Advanced Placement (AP) Courses",
+              "description": "College-level coursework in calculus, literature, biology, computer science, and economics."
+            },
+            {
+              "id": "nf_s2",
+              "title": "Championship Athletics Program",
+              "description": "Crew on the Connecticut River, varsity ice hockey, lacrosse, soccer, and cross-country."
+            },
+            {
+              "id": "nf_s3",
+              "title": "Nationally Ranked Speech & Debate",
+              "description": "Lincoln-Douglas, Policy, and Public Forum debate squads competing on national circuits."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed18-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Discover What Makes Northfield Prep Extraordinary",
+          "description": "Join us for our upcoming Fall Open House and tour the historic quad with student prefects.",
+          "primaryButtonText": "Register for Open House",
+          "primaryButtonLink": "#admissions"
+        }
+      },
+      {
+        "id": "ed18-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Northfield Prep Senior High School",
+          "copyrightText": "© 2026 Northfield Preparatory Academy. NEASC Accredited."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-sports-01",
+    "slug": "apex-athlete-sports-academy",
+    "name": "Apex Athlete Olympic Sports Academy",
+    "description": "Elite student-athlete boarding academy combining NCAA-accredited high school academics with world-class training in tennis, golf, and soccer.",
+    "industryId": "education",
+    "categoryId": "sports-academy",
+    "collectionId": "athletic-academy",
+    "designStyle": "bold-creative",
+    "tags": [
+      "sports academy",
+      "tennis academy",
+      "ncaa",
+      "golf training",
+      "student athlete"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed19-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "APEX ATHLETE ACADEMY",
+          "primaryButtonText": "Tryout Application",
+          "primaryButtonLink": "#tryout",
+          "navLinks": [
+            {
+              "label": "Sports Programs",
+              "href": "#sports"
+            },
+            {
+              "label": "NCAA Academics",
+              "href": "#academics"
+            },
+            {
+              "label": "Training Facilities",
+              "href": "#facilities"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed19-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Training NCAA Division 1 & Pro Contenders",
+          "title": "Uncompromising Athletic Training. Accredited Academic Excellence.",
+          "subtitle": "Custom daily training schedules balanced with collegiate prep classes, biometric load tracking, mental performance coaching, and NCAA recruitment showcases.",
+          "primaryButtonText": "Schedule Tryout & Campus Tour",
+          "primaryButtonLink": "#tryout",
+          "imageUrl": "https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "ax1",
+              "label": "NCAA D1 Scholarships Earned",
+              "value": "$24M+"
+            },
+            {
+              "id": "ax2",
+              "label": "Olympic Competitors",
+              "value": "18 Athletes"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed19-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Elite Athletic Disciplines",
+          "items": [
+            {
+              "id": "ax_s1",
+              "title": "Championship Tennis Program",
+              "description": "Har-Tru clay and plexipave hard courts with high-speed video stroke analysis and ATP coaching."
+            },
+            {
+              "id": "ax_s2",
+              "title": "Junior Golf Performance Academy",
+              "description": "TrackMan radar ball flight simulator bays and short game chipping complexes."
+            },
+            {
+              "id": "ax_s3",
+              "title": "FIFA-Regulated Soccer Academy",
+              "description": "UEFA Pro licensed coaches, match tactical video breakdown, and European scout showcases."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed19-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Earn Your NCAA Scholarship With Apex",
+          "description": "Boarding and day-student tryouts held monthly for dedicated athletes ages 12 to 18.",
+          "primaryButtonText": "Apply for Athlete Tryouts",
+          "primaryButtonLink": "#tryout"
+        }
+      },
+      {
+        "id": "ed19-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Apex Athlete Olympic Sports Academy",
+          "copyrightText": "© 2026 Apex Athlete Academy. NCAA Approved Curriculum."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-lib-01",
+    "slug": "alexandria-classical-library",
+    "name": "Alexandria Classical Heritage Research Library",
+    "description": "Renowned archival research library housing illuminated medieval manuscripts, special collections, digital rare books, and private scholar desks.",
+    "industryId": "education",
+    "categoryId": "library",
+    "collectionId": "scholarly-legacy",
+    "designStyle": "academic-classic",
+    "tags": [
+      "library",
+      "rare books",
+      "research",
+      "archives",
+      "manuscripts",
+      "humanities"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed20-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "ALEXANDRIA RESEARCH LIBRARY",
+          "primaryButtonText": "Reader Card Registration",
+          "primaryButtonLink": "#reader",
+          "navLinks": [
+            {
+              "label": "Catalog Search",
+              "href": "#catalog"
+            },
+            {
+              "label": "Special Collections",
+              "href": "#archives"
+            },
+            {
+              "label": "Fellowships",
+              "href": "#fellowships"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed20-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Preserving 600,000 Rare Volumes & Folios",
+          "title": "A Sanctum of Human Knowledge, History, and Thought",
+          "subtitle": "Soaring mahogany reading rooms, climate-controlled archive vaults, and high-resolution digital scanning accessible to scholars and researchers worldwide.",
+          "primaryButtonText": "Search Rare Book Catalog",
+          "primaryButtonLink": "#catalog",
+          "imageUrl": "https://images.unsplash.com/photo-1507842229458-57793d556e3e?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "al1",
+              "label": "Archived Manuscripts",
+              "value": "600,000+"
+            },
+            {
+              "id": "al2",
+              "label": "Annual Visiting Scholars",
+              "value": "4,500 Fellows"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed20-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "title": "Archival & Research Services",
+          "items": [
+            {
+              "id": "al_s1",
+              "title": "Special Collections Reading Room",
+              "description": "Monitored rare book and incunabula consultation under conservator guidance."
+            },
+            {
+              "id": "al_s2",
+              "title": "High-Resolution Manuscript Digitization",
+              "description": "Ultra-high-definition spectral imaging revealing faded palimpsests and watermarks."
+            },
+            {
+              "id": "al_s3",
+              "title": "Residential Visiting Scholar Fellowships",
+              "description": "Endowed research stipends and private study carrels for postdoctoral fellows."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed20-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Gain Access to World-Class Primary Sources",
+          "description": "Register online for your reader access pass or explore our open-access digital image repository.",
+          "primaryButtonText": "Apply for Reader Card",
+          "primaryButtonLink": "#reader"
+        }
+      },
+      {
+        "id": "ed20-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Alexandria Classical Heritage Library",
+          "copyrightText": "© 2026 Alexandria Research Library Foundation. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-med-01",
+    "slug": "aesculapius-medical-college",
+    "name": "Aesculapius Collegiate School of Medicine",
+    "description": "Premier medical school delivering 4-year MD programs, biomedical research fellowships, cadaveric dissection, and clinical hospital rotations.",
+    "industryId": "education",
+    "categoryId": "medical-college",
+    "collectionId": "medical-school",
+    "designStyle": "medical-clean",
+    "tags": [
+      "medical school",
+      "md program",
+      "medicine",
+      "residency",
+      "clinical education"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed21-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "AESCULAPIUS MEDICINE",
+          "badge": "LCME Accredited",
+          "primaryButtonText": "MD Admissions",
+          "primaryButtonLink": "#apply",
+          "navLinks": [
+            {
+              "label": "MD Curriculum",
+              "href": "#curriculum"
+            },
+            {
+              "label": "Research Tracks",
+              "href": "#research"
+            },
+            {
+              "label": "Residency Match",
+              "href": "#match"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed21-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Ranked Top 15 Medical School in Research",
+          "title": "Training the Next Generation of Healers and Clinician-Scientists",
+          "subtitle": "A patient-first clinical curriculum integrating organ-system pathology, bedside physical diagnosis from Year 1, and dual MD-PhD research programs.",
+          "primaryButtonText": "Explore the MD Degree",
+          "primaryButtonLink": "#curriculum",
+          "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "md1",
+              "label": "Residency Match Rate",
+              "value": "99.4%"
+            },
+            {
+              "id": "md2",
+              "label": "NIH Research Funding",
+              "value": "$180M"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed21-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Medical Education Programs",
+          "items": [
+            {
+              "id": "md_s1",
+              "title": "Four-Year Doctor of Medicine (MD)",
+              "description": "Integrated pre-clerkship organ modules followed by core clerkships in surgery, pediatrics, and IM."
+            },
+            {
+              "id": "md_s2",
+              "title": "MSTP Medical Scientist Training (MD/PhD)",
+              "description": "Fully-funded tuition and stipend training physician-scientists in cellular biology and genomics."
+            },
+            {
+              "id": "md_s3",
+              "title": "Surgical Simulation & Anatomy Lab",
+              "description": "Advanced virtual reality laparoscopy and hands-on cadaveric gross anatomical dissection."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed21-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Begin Your Lifelong Journey in Medical Healing",
+          "description": "Submit your AMCAS application and review secondary application deadlines.",
+          "primaryButtonText": "View Admissions Requirements",
+          "primaryButtonLink": "#apply"
+        }
+      },
+      {
+        "id": "ed21-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Aesculapius Collegiate School of Medicine",
+          "copyrightText": "© 2026 Aesculapius School of Medicine. LCME Accredited."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-data-01",
+    "slug": "matrixpulse-data-science",
+    "name": "MatrixPulse Data & AI Academy",
+    "description": "Immersive career bootcamp focusing on machine learning engineering, PyTorch, generative LLMs, and large-scale data lake pipelines.",
+    "industryId": "education",
+    "categoryId": "data-science-academy",
+    "collectionId": "tech-bootcamp",
+    "designStyle": "dark-cinematic",
+    "tags": [
+      "data science",
+      "machine learning",
+      "ai",
+      "python",
+      "pytorch",
+      "bootcamp"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed22-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "MATRIXPULSE AI",
+          "primaryButtonText": "Syllabus & Tuition",
+          "primaryButtonLink": "#syllabus",
+          "navLinks": [
+            {
+              "label": "ML Engineering",
+              "href": "#ml"
+            },
+            {
+              "label": "GenAI & LLMs",
+              "href": "#genai"
+            },
+            {
+              "label": "Hiring Partners",
+              "href": "#hiring"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed22-hero",
+        "type": "hero",
+        "variant": "hero-cinematic-dark",
+        "visible": true,
+        "content": {
+          "badge": "Production Machine Learning • Real GPU Compute",
+          "title": "Master Machine Learning and Large Language Model Engineering",
+          "subtitle": "Learn by training real transformer models on dedicated NVIDIA H100 clusters. Master PyTorch, feature stores, vector databases, and MLOps deployment pipelines.",
+          "primaryButtonText": "Download ML Curriculum",
+          "primaryButtonLink": "#syllabus",
+          "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "ds1",
+              "label": "Median Graduate Salary",
+              "value": "$134,000"
+            },
+            {
+              "id": "ds2",
+              "label": "Dedicated GPU Hours per Student",
+              "value": "250 Hours"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed22-srv",
+        "type": "services",
+        "variant": "services-bento",
+        "visible": true,
+        "content": {
+          "title": "Specialized AI Engineering Modules",
+          "items": [
+            {
+              "id": "ds_s1",
+              "title": "Deep Learning & Neural Architectures",
+              "description": "Backpropagation from scratch, CNNs, Vision Transformers, and PyTorch lightning multi-GPU training."
+            },
+            {
+              "id": "ds_s2",
+              "title": "LLM Fine-Tuning & Quantization",
+              "description": "LoRA, QLoRA, Reinforcement Learning from Human Feedback (RLHF), and vLLM inference serving."
+            },
+            {
+              "id": "ds_s3",
+              "title": "MLOps & Kubernetes Model Deployment",
+              "description": "Model registries, drift monitoring, automated CI/CD pipelines, and Triton inference servers."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed22-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Join the Next Generation of AI Engineers",
+          "description": "Technical admissions test evaluates Python fundamentals and linear algebra basics.",
+          "primaryButtonText": "Take Technical Assessment",
+          "primaryButtonLink": "#syllabus"
+        }
+      },
+      {
+        "id": "ed22-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "MatrixPulse Data & AI Academy",
+          "copyrightText": "© 2026 MatrixPulse AI Institute. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-preschool-01",
+    "slug": "sunbeam-forest-preschool",
+    "name": "Sunbeam Nature Forest Preschool",
+    "description": "Outdoor Scandinavian forest preschool connecting young children to nature through woodland exploration, wildlife observation, and sensory art.",
+    "industryId": "education",
+    "categoryId": "preschool",
+    "collectionId": "early-childhood",
+    "designStyle": "organic-natural",
+    "tags": [
+      "preschool",
+      "forest school",
+      "nature play",
+      "early childhood",
+      "outdoor learning"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed23-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "SUNBEAM FOREST SCHOOL",
+          "primaryButtonText": "Visit the Woods",
+          "primaryButtonLink": "#visit",
+          "navLinks": [
+            {
+              "label": "Outdoor Learning",
+              "href": "#outdoor"
+            },
+            {
+              "label": "Daily Rhythms",
+              "href": "#rhythms"
+            },
+            {
+              "label": "Enrollment",
+              "href": "#enroll"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed23-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "100% Outdoor Forest Kindergarten Experience",
+          "title": "The Forest Is Our Classroom. Nature Is Our Teacher.",
+          "subtitle": "Rain or shine, children explore 40 acres of private protected woodlands, climbing fallen logs, tracking deer prints, and building resilience in nature.",
+          "primaryButtonText": "Book a Forest Walk Visit",
+          "primaryButtonLink": "#visit",
+          "imageUrl": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "sb1",
+              "label": "Outdoor Learning Time",
+              "value": "80% of Day"
+            },
+            {
+              "id": "sb2",
+              "label": "Protected Woodland Acres",
+              "value": "40 Acres"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed23-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Woodland Curriculum",
+          "items": [
+            {
+              "id": "sb_s1",
+              "title": "Forest Ecology & Animal Tracking",
+              "description": "Identifying native bird calls, pine cones, seasonal leaf changes, and fungi."
+            },
+            {
+              "id": "sb_s2",
+              "title": "Natural Loose Parts & Fort Building",
+              "description": "Developing cooperative communication while hauling branches and building woodland teepees."
+            },
+            {
+              "id": "sb_s3",
+              "title": "Campfire Circle & Storytelling",
+              "description": "Hot organic herbal tea, song circles, and puppet plays under cedar canopies."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed23-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Give Your Child the Gift of an Unhurried Childhood",
+          "description": "Now enrolling toddlers and preschoolers for our summer and autumn outdoor terms.",
+          "primaryButtonText": "Schedule Family Visit",
+          "primaryButtonLink": "#visit"
+        }
+      },
+      {
+        "id": "ed23-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Sunbeam Nature Forest Preschool",
+          "copyrightText": "© 2026 Sunbeam Forest Education. Member of American Forest Kindergarten Association."
+        }
+      }
+    ]
+  },
+  {
+    "id": "edu-tuition-01",
+    "slug": "beacon-hill-tuition-center",
+    "name": "Beacon Hill Academic Tuition Center",
+    "description": "After-school enrichment and micro-tutoring center for elementary through high school in Singapore Math, writing, and physics.",
+    "industryId": "education",
+    "categoryId": "tuition-center",
+    "collectionId": "exam-coaching",
+    "designStyle": "modern-corporate",
+    "tags": [
+      "tuition center",
+      "tutoring",
+      "singapore math",
+      "enrichment",
+      "after school"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "ed24-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "BEACON HILL TUITION",
+          "primaryButtonText": "Free Assessment",
+          "primaryButtonLink": "#eval",
+          "navLinks": [
+            {
+              "label": "Math Enrichment",
+              "href": "#math"
+            },
+            {
+              "label": "Writing & Phonics",
+              "href": "#writing"
+            },
+            {
+              "label": "Schedules",
+              "href": "#schedules"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed24-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Small Groups of 4 • Certified Educators",
+          "title": "Building Academic Confidence and Unshakable Mastery",
+          "subtitle": "Targeted after-school tutoring using the proven Singapore Bar-Model math approach, essay writing workshops, and homework support in a quiet, focused center.",
+          "primaryButtonText": "Book Free Math & Reading Assessment",
+          "primaryButtonLink": "#eval",
+          "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "bh1",
+              "label": "Average Grade Improvement",
+              "value": "+1.5 Letter Grades"
+            },
+            {
+              "id": "bh2",
+              "label": "Maximum Group Size",
+              "value": "4 Students"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed24-srv",
+        "type": "services",
+        "variant": "services-cards-accent",
+        "visible": true,
+        "content": {
+          "title": "Targeted Tutoring Tracks",
+          "items": [
+            {
+              "id": "bh_s1",
+              "title": "Singapore Math Mastery (Grades K-8)",
+              "description": "Concrete-Pictorial-Abstract framework conquering fractions, word problems, and algebra."
+            },
+            {
+              "id": "bh_s2",
+              "title": "Critical Reading & Expository Writing",
+              "description": "Thesis formulation, evidence synthesis, grammar conventions, and vocabulary acquisition."
+            },
+            {
+              "id": "bh_s3",
+              "title": "High School Honors & AP Homework Support",
+              "description": "Pre-calculus, AP Physics, and chemistry problem sets guided by subject matter specialists."
+            }
+          ]
+        }
+      },
+      {
+        "id": "ed24-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Turn Math Anxiety into Academic Joy",
+          "description": "Schedule a free 45-minute diagnostic test to identify your child’s precise learning gaps.",
+          "primaryButtonText": "Claim Free Assessment",
+          "primaryButtonLink": "#eval"
+        }
+      },
+      {
+        "id": "ed24-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Beacon Hill Academic Tuition Center",
+          "copyrightText": "© 2026 Beacon Hill Learning Centers. All rights reserved."
+        }
+      }
+    ]
+  }
+];

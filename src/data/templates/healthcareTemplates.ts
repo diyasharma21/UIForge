@@ -1,0 +1,3047 @@
+import { TemplateConfig } from '../../types';
+
+export const HEALTHCARE_TEMPLATES: TemplateConfig[] = [
+  {
+    "id": "dermatology-luxury-01",
+    "slug": "lumiere-dermatology",
+    "name": "Lumière Aesthetic Dermatology",
+    "description": "Bespoke clinical dermatology featuring serif elegance, treatment menus, and private doctor consultations.",
+    "industryId": "healthcare",
+    "categoryId": "dermatologist",
+    "collectionId": "luxury-dermatology",
+    "designStyle": "luxury-editorial",
+    "featured": true,
+    "tags": [
+      "dermatology",
+      "skin clinic",
+      "luxury",
+      "cosmetic",
+      "botox",
+      "laser"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl1-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "LUMIÈRE CLINICAL",
+          "badge": "Board Certified MDs",
+          "primaryButtonText": "Book Consultation",
+          "primaryButtonLink": "#booking",
+          "navLinks": [
+            {
+              "label": "Philosophy",
+              "href": "#about"
+            },
+            {
+              "label": "Treatments",
+              "href": "#services"
+            },
+            {
+              "label": "Physicians",
+              "href": "#doctors"
+            },
+            {
+              "label": "Contact",
+              "href": "#contact"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl1-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Harvard & Johns Hopkins Trained Dermatologists",
+          "title": "Elevating Skin Health to an Art Form",
+          "subtitle": "Precision dermatological medicine meets restorative facial aesthetics. Experience clinical outcomes in an unhurried, private atelier environment.",
+          "primaryButtonText": "Reserve Private Consult",
+          "primaryButtonLink": "#booking",
+          "secondaryButtonText": "Explore Protocols",
+          "secondaryButtonLink": "#services",
+          "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+          "imageAlt": "Lumiere Dermatology Consultation Suite",
+          "stats": [
+            {
+              "id": "s1",
+              "label": "Clinical Experience",
+              "value": "18+ Yrs"
+            },
+            {
+              "id": "s2",
+              "label": "Dermal Procedures",
+              "value": "25,000+"
+            },
+            {
+              "id": "s3",
+              "label": "Board Certification",
+              "value": "100% MD"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl1-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "badge": "Targeted Interventions",
+          "title": "Specialized Clinical Skin Treatments",
+          "subtitle": "Our physicians utilize FDA-cleared energy devices and pharmaceutical-grade injectables.",
+          "items": [
+            {
+              "id": "srv1",
+              "title": "Cellular Laser Resurfacing",
+              "description": "Fractional dual-wavelength erbium pulses targeting deep pigmentation and sun elastosis.",
+              "badge": "Minimal Downtime",
+              "price": "From $850"
+            },
+            {
+              "id": "srv2",
+              "title": "Neuromodulator & Myo-Contouring",
+              "description": "Sub-millimeter micro-aliquots to soften hyperdynamic rhytids while preserving natural facial expression.",
+              "badge": "Custom Dosing",
+              "price": "From $450"
+            },
+            {
+              "id": "srv3",
+              "title": "Platelet-Rich Biostimulation",
+              "description": "Autologous growth factor concentrate accelerating collagen synthesis and dermal thickness.",
+              "badge": "100% Autologous",
+              "price": "From $700"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl1-doc",
+        "type": "doctor-profile",
+        "variant": "doctor-grid",
+        "visible": true,
+        "content": {
+          "badge": "Clinical Leadership",
+          "title": "Our Attending Dermatologists",
+          "subtitle": "Double board-certified specialists dedicated to skin health.",
+          "items": [
+            {
+              "id": "d1",
+              "title": "Dr. Camille Laurent, MD",
+              "description": "Fellow of American Academy of Dermatology, Harvard Medical School.",
+              "authorRole": "Chief of Cosmetic Dermatology",
+              "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+            },
+            {
+              "id": "d2",
+              "title": "Dr. Marcus Vance, MD, PhD",
+              "description": "Director of Cutaneous Oncology, Johns Hopkins Fellowship.",
+              "authorRole": "Mohs Micrographic Surgeon",
+              "imageUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl1-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "badge": "Confidential Consultation",
+          "title": "Begin Your Personalized Skin Restoration Protocol",
+          "description": "Consultations include high-resolution multispectral dermoscopy and bespoke topical recommendations.",
+          "primaryButtonText": "Schedule Private Appointment",
+          "primaryButtonLink": "#booking"
+        }
+      },
+      {
+        "id": "hl1-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "Lumière Dermatology Atelier",
+          "description": "740 Park Avenue, Suite 1200, New York, NY 10021",
+          "copyrightText": "© 2026 Lumière Aesthetic Dermatology. All clinical rights reserved.",
+          "footerColumns": [
+            {
+              "title": "Clinical Care",
+              "links": [
+                {
+                  "label": "Laser Resurfacing",
+                  "href": "#"
+                },
+                {
+                  "label": "Injectables",
+                  "href": "#"
+                }
+              ]
+            },
+            {
+              "title": "Practice",
+              "links": [
+                {
+                  "label": "Our Physicians",
+                  "href": "#"
+                },
+                {
+                  "label": "Contact",
+                  "href": "#"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dermatology-clarite-02",
+    "slug": "clarite-clinical-skin",
+    "name": "Clarité Clinical Skin & Laser",
+    "description": "Minimalist medical dermatology focusing on evidence-based acne solutions, eczema, and skin cancer surveillance.",
+    "industryId": "healthcare",
+    "categoryId": "cosmetic-dermatologist",
+    "collectionId": "minimal-clinical",
+    "designStyle": "minimal-neutral",
+    "tags": [
+      "dermatology",
+      "skin cancer",
+      "acne",
+      "medical clinic",
+      "evidence-based"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl2-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "CLARITÉ DERMATOLOGY",
+          "primaryButtonText": "Book Visit",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Conditions",
+              "href": "#services"
+            },
+            {
+              "label": "Doctors",
+              "href": "#doctors"
+            },
+            {
+              "label": "Insurance",
+              "href": "#faq"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl2-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Evidence-Based Cutaneous Medicine",
+          "title": "Clear Skin Rooted in Peer-Reviewed Science",
+          "subtitle": "We treat chronic inflammatory conditions, cystic acne, and perform comprehensive full-body dermoscopy mole mapping.",
+          "primaryButtonText": "Book New Patient Visit",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "s1",
+              "label": "In-Network Insurers",
+              "value": "28 Plans"
+            },
+            {
+              "id": "s2",
+              "label": "Average Wait Time",
+              "value": "< 10 Mins"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl2-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Specialized Clinical Areas",
+          "items": [
+            {
+              "id": "c1",
+              "title": "Full Body Mole Mapping",
+              "description": "Digital epiluminescence dermoscopy to detect dysplastic nevi and early-stage melanoma.",
+              "badge": "Preventive Care"
+            },
+            {
+              "id": "c2",
+              "title": "Severe Cystic Acne Protocol",
+              "description": "Targeted oral retinoid therapy, non-ablative laser clearing, and prescription topicals.",
+              "badge": "Targeted Cure"
+            },
+            {
+              "id": "c3",
+              "title": "Atopic Dermatitis & Psoriasis",
+              "description": "Biologic injectable therapies and targeted narrowband UVB phototherapy.",
+              "badge": "Immunotherapy"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl2-cta",
+        "type": "cta",
+        "variant": "cta-minimal-center",
+        "visible": true,
+        "content": {
+          "title": "Same-Week Dermatology Appointments Available",
+          "description": "Most major commercial PPO plans and Medicare accepted with zero referral required.",
+          "primaryButtonText": "Verify Insurance & Book",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl2-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Clarité Clinical Dermatology",
+          "copyrightText": "© 2026 Clarité Medical Group. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hospital-stjude-01",
+    "slug": "st-jude-metropolitan-hospital",
+    "name": "St. Jude Metropolitan Hospital",
+    "description": "Comprehensive tertiary healthcare center featuring emergency services, intensive care, and surgical towers.",
+    "industryId": "healthcare",
+    "categoryId": "hospital",
+    "collectionId": "modern-hospital",
+    "designStyle": "modern-corporate",
+    "featured": true,
+    "tags": [
+      "hospital",
+      "emergency care",
+      "surgery",
+      "icu",
+      "trauma center",
+      "inpatient"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl3-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "ST. JUDE METROPOLITAN",
+          "badge": "Level 1 Trauma Center",
+          "primaryButtonText": "24/7 ER Status",
+          "primaryButtonLink": "#er",
+          "navLinks": [
+            {
+              "label": "Departments",
+              "href": "#departments"
+            },
+            {
+              "label": "Find a Physician",
+              "href": "#doctors"
+            },
+            {
+              "label": "Patient Portal",
+              "href": "#portal"
+            },
+            {
+              "label": "Locations",
+              "href": "#locations"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl3-hero",
+        "type": "hero",
+        "variant": "hero-bento",
+        "visible": true,
+        "content": {
+          "badge": "Ranked Top 20 National Hospital",
+          "title": "World-Class Compassion. Advanced Surgical Excellence.",
+          "subtitle": "A 650-bed academic medical center pioneering minimally invasive robotics, cardiovascular catheterization, and round-the-clock emergency medicine.",
+          "primaryButtonText": "Find a Department",
+          "primaryButtonLink": "#departments",
+          "secondaryButtonText": "Emergency Guidance",
+          "secondaryButtonLink": "#er",
+          "imageUrl": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "st1",
+              "label": "Bed Capacity",
+              "value": "650 Beds"
+            },
+            {
+              "id": "st2",
+              "label": "Annual Surgeries",
+              "value": "18,500+"
+            },
+            {
+              "id": "st3",
+              "label": "Average ER Triage",
+              "value": "8 Minutes"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl3-dept",
+        "type": "medical-departments",
+        "variant": "departments-accordion",
+        "visible": true,
+        "content": {
+          "badge": "Clinical Centers of Excellence",
+          "title": "Comprehensive Department Directory",
+          "subtitle": "Interdisciplinary teams collaborating for optimal clinical outcomes.",
+          "items": [
+            {
+              "id": "d1",
+              "title": "Cardiothoracic Surgery & Valve Center",
+              "description": "Transcatheter aortic valve replacements (TAVR), robotic bypass, and arrhythmia ablation.",
+              "meta": "Tower A, Floor 4"
+            },
+            {
+              "id": "d2",
+              "title": "Neuroscience & Stroke Institute",
+              "description": "Comprehensive 24/7 endovascular stroke intervention and spinal deformity correction.",
+              "meta": "Tower B, Floor 6"
+            },
+            {
+              "id": "d3",
+              "title": "Comprehensive Cancer Center",
+              "description": "CAR-T immunotherapy, proton beam radiation, and multidisciplinary tumor boards.",
+              "meta": "Pavilion East"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl3-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "badge": "Immediate Medical Support",
+          "title": "Need Urgent Clinical Evaluation?",
+          "description": "Our emergency department is staffed 24 hours a day with board-certified emergency medicine physicians.",
+          "primaryButtonText": "Call ER Hotline (800) 555-0199",
+          "primaryButtonLink": "tel:8005550199"
+        }
+      },
+      {
+        "id": "hl3-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "St. Jude Metropolitan Hospital",
+          "description": "500 Medical Center Boulevard, Chicago, IL 60611",
+          "copyrightText": "© 2026 St. Jude Metropolitan Health System. Non-profit 501(c)(3).",
+          "footerColumns": [
+            {
+              "title": "Emergency",
+              "links": [
+                {
+                  "label": "ER Check-In",
+                  "href": "#"
+                },
+                {
+                  "label": "Trauma Center",
+                  "href": "#"
+                }
+              ]
+            },
+            {
+              "title": "Patients",
+              "links": [
+                {
+                  "label": "MyHealth Portal",
+                  "href": "#"
+                },
+                {
+                  "label": "Visiting Hours",
+                  "href": "#"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dental-apex-01",
+    "slug": "apex-artisan-dental",
+    "name": "Apex Artisan Dental Studio",
+    "description": "High-end cosmetic dentistry, ceramic veneers, Invisalign, and gentle laser periodontal therapy.",
+    "industryId": "healthcare",
+    "categoryId": "dental-clinic",
+    "collectionId": "modern-dental",
+    "designStyle": "medical-clean",
+    "featured": true,
+    "tags": [
+      "dental",
+      "cosmetic dentistry",
+      "veneers",
+      "invisalign",
+      "teeth whitening"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl4-nav",
+        "type": "navbar",
+        "variant": "navbar-floating",
+        "visible": true,
+        "content": {
+          "title": "APEX DENTAL STUDIO",
+          "primaryButtonText": "Schedule Visit",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Smile Gallery",
+              "href": "#gallery"
+            },
+            {
+              "label": "Procedures",
+              "href": "#services"
+            },
+            {
+              "label": "Technology",
+              "href": "#tech"
+            },
+            {
+              "label": "Reviews",
+              "href": "#reviews"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl4-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Painless Modern Dentistry",
+          "title": "Precision Dentistry. Architecturally Perfect Smiles.",
+          "subtitle": "We blend digital 3D smile design, ultra-thin porcelain veneers, and soothing sedation in a luxury spa setting.",
+          "primaryButtonText": "Book Free Smile Consult",
+          "primaryButtonLink": "#book",
+          "secondaryButtonText": "View Before & Afters",
+          "secondaryButtonLink": "#gallery",
+          "imageUrl": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "d1",
+              "label": "Veneers Placed",
+              "value": "8,400+"
+            },
+            {
+              "id": "d2",
+              "label": "Satisfaction Rate",
+              "value": "99.6%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl4-srv",
+        "type": "services",
+        "variant": "services-cards-accent",
+        "visible": true,
+        "content": {
+          "badge": "Our Specialties",
+          "title": "Transformative Dental Services",
+          "items": [
+            {
+              "id": "v1",
+              "title": "Handcrafted Porcelain Veneers",
+              "description": "Ultra-thin feldspathic porcelain custom-shaded to reflect natural light effortlessly.",
+              "badge": "Lifetime Warranty",
+              "price": "From $1,200/tooth"
+            },
+            {
+              "id": "v2",
+              "title": "Invisalign Clear Aligners",
+              "description": "Discreet 3D digital orthodontic realignment with weekly progressive trays.",
+              "badge": "Diamond Provider",
+              "price": "From $3,400"
+            },
+            {
+              "id": "v3",
+              "title": "Same-Day CEREC Crowns",
+              "description": "Digital scanning and in-office ceramic milling for permanent crowns in a single visit.",
+              "badge": "Single Visit",
+              "price": "From $950"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl4-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Ready for the Smile You Have Always Wanted?",
+          "description": "Book your complimentary 3D digital smile simulation with our lead cosmetic dental surgeon today.",
+          "primaryButtonText": "Reserve Your Consultation",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl4-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "Apex Artisan Dental",
+          "description": "450 Beverly Hills Blvd, Beverly Hills, CA 90210",
+          "copyrightText": "© 2026 Apex Artisan Dental Studio. All rights reserved.",
+          "footerColumns": [
+            {
+              "title": "Treatments",
+              "links": [
+                {
+                  "label": "Porcelain Veneers",
+                  "href": "#"
+                },
+                {
+                  "label": "Invisalign",
+                  "href": "#"
+                }
+              ]
+            },
+            {
+              "title": "Information",
+              "links": [
+                {
+                  "label": "Financing Plans",
+                  "href": "#"
+                },
+                {
+                  "label": "Location & Parking",
+                  "href": "#"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-cardio-01",
+    "slug": "pulse-valve-cardiac",
+    "name": "Pulse & Valve Cardiac Institute",
+    "description": "Premier outpatient cardiology center delivering echocardiography, stress testing, cardiac CT, and preventive lipidology.",
+    "industryId": "healthcare",
+    "categoryId": "cardiologist",
+    "collectionId": "cardiac-care",
+    "designStyle": "medical-clean",
+    "tags": [
+      "cardiology",
+      "heart clinic",
+      "ecg",
+      "valve surgery",
+      "cardiovascular"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl5-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "PULSE & VALVE INSTITUTE",
+          "primaryButtonText": "Book Cardiac Consult",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Diagnostic Testing",
+              "href": "#services"
+            },
+            {
+              "label": "Cardiologists",
+              "href": "#team"
+            },
+            {
+              "label": "Chest Pain Protocol",
+              "href": "#emergency"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl5-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Cardiovascular Excellence",
+          "title": "Guardians of Your Heart Health and Vitality",
+          "subtitle": "From advanced 3D speckle tracking echocardiography to coronary calcium scoring, we provide immediate answers for cardiovascular peace of mind.",
+          "primaryButtonText": "Schedule Heart Screening",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "s1",
+              "label": "Echocardiograms Performed",
+              "value": "45,000+"
+            },
+            {
+              "id": "s2",
+              "label": "Board-Certified Cardiologists",
+              "value": "14 Specialists"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl5-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Outpatient Cardiac Diagnostics",
+          "items": [
+            {
+              "id": "cd1",
+              "title": "Coronary Calcium CT Scoring",
+              "description": "Rapid low-radiation screening to detect subclinical atherosclerosis decades before symptoms.",
+              "badge": "Fast 15-Min Scan"
+            },
+            {
+              "id": "cd2",
+              "title": "Stress Echocardiography",
+              "description": "Exercise hemodynamic evaluation assessing myocardial perfusion and valvular gradients.",
+              "badge": "Accredited Lab"
+            },
+            {
+              "id": "cd3",
+              "title": "Arrhythmia Holter Monitoring",
+              "description": "Wireless patch telemetry tracking cardiac rhythm abnormalities for up to 14 continuous days.",
+              "badge": "Waterproof Wearable"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl5-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Comprehensive Cardiovascular Health Screenings",
+          "description": "Early detection saves lives. Schedule your full lipid panel, ECG, and echocardiogram today.",
+          "primaryButtonText": "Book Preventative Assessment",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl5-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Pulse & Valve Cardiac Institute",
+          "copyrightText": "© 2026 Pulse & Valve Cardiac Institute. Accredited by Intersocietal Accreditation Commission."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-neuro-01",
+    "slug": "synapse-brain-spine",
+    "name": "Synapse Brain & Spine Neurosciences",
+    "description": "Advanced neurological diagnostics, migraine center, epilepsy monitoring, and memory care center.",
+    "industryId": "healthcare",
+    "categoryId": "neurologist",
+    "collectionId": "neuro-specialty",
+    "designStyle": "technology-gradient",
+    "tags": [
+      "neurology",
+      "brain health",
+      "spine",
+      "migraine",
+      "epilepsy",
+      "eeg"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl6-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "SYNAPSE NEUROSCIENCES",
+          "primaryButtonText": "Consult Specialist",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Neurology Programs",
+              "href": "#services"
+            },
+            {
+              "label": "EEG & EMG Labs",
+              "href": "#diagnostics"
+            },
+            {
+              "label": "Clinical Trials",
+              "href": "#research"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl6-hero",
+        "type": "hero",
+        "variant": "hero-cinematic-dark",
+        "visible": true,
+        "content": {
+          "badge": "Pioneering Neurological Medicine",
+          "title": "Deciphering the Complexities of the Human Nervous System",
+          "subtitle": "Our fellowship-trained neurologists deliver precision therapeutic regimens for intractable migraines, movement disorders, and neuropathy.",
+          "primaryButtonText": "Schedule Neurological Consult",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "n1",
+              "label": "Refractory Migraine Relief",
+              "value": "92%"
+            },
+            {
+              "id": "n2",
+              "label": "Neurodiagnostic Accuracy",
+              "value": "99.4%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl6-srv",
+        "type": "services",
+        "variant": "services-bento",
+        "visible": true,
+        "content": {
+          "title": "Specialized Neurological Clinics",
+          "items": [
+            {
+              "id": "ne1",
+              "title": "Comprehensive Headache Center",
+              "description": "CGRP antagonist infusions, botulinum neuromodulation, and nerve blocks for chronic migraine."
+            },
+            {
+              "id": "ne2",
+              "title": "Electromyography (EMG / NCS)",
+              "description": "Precision nerve conduction studies diagnosing carpal tunnel, radiculopathy, and myopathies."
+            },
+            {
+              "id": "ne3",
+              "title": "Memory & Cognitive Disorders",
+              "description": "Biomarker screening, PET imaging analysis, and multi-modal early cognitive interventions."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl6-cta",
+        "type": "cta",
+        "variant": "cta-minimal-center",
+        "visible": true,
+        "content": {
+          "title": "Find Long-Term Relief from Chronic Neurological Symptoms",
+          "description": "Consult with our neurology team for an in-depth clinical evaluation and high-resolution neuro-imaging.",
+          "primaryButtonText": "Request Specialist Appointment",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl6-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Synapse Brain & Spine Neurosciences",
+          "copyrightText": "© 2026 Synapse Neurological Institute. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-ortho-01",
+    "slug": "vanguard-orthopedic-joint",
+    "name": "Vanguard Motion Orthopedics",
+    "description": "Sports medicine, robotic joint replacements, arthroscopic surgery, and musculoskeletal rehabilitation.",
+    "industryId": "healthcare",
+    "categoryId": "orthopedic-clinic",
+    "collectionId": "ortho-sports",
+    "designStyle": "modern-corporate",
+    "tags": [
+      "orthopedics",
+      "joint replacement",
+      "sports medicine",
+      "knee surgery",
+      "spine"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl7-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "VANGUARD ORTHOPEDICS",
+          "badge": "Robotic Surgery Center",
+          "primaryButtonText": "Book Consult",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Joint Replacement",
+              "href": "#joints"
+            },
+            {
+              "label": "Sports Medicine",
+              "href": "#sports"
+            },
+            {
+              "label": "Surgeons",
+              "href": "#team"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl7-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Sub-Millimeter Robotic Precision",
+          "title": "Restoring Fluid Movement. Eliminating Joint Pain.",
+          "subtitle": "Leading orthopedic surgeons utilizing MAKO robotic arm guidance for outpatient total hip and knee arthroplasty with rapid same-day recovery.",
+          "primaryButtonText": "Consult an Orthopedic Surgeon",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "or1",
+              "label": "Robotic Arthroplasties",
+              "value": "12,000+"
+            },
+            {
+              "id": "or2",
+              "label": "Outpatient Same-Day Rate",
+              "value": "88%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl7-srv",
+        "type": "services",
+        "variant": "services-cards-accent",
+        "visible": true,
+        "content": {
+          "title": "Sub-Specialty Surgical Services",
+          "items": [
+            {
+              "id": "s1",
+              "title": "Robotic Total Knee Replacement",
+              "description": "Patient-specific kinematic alignment preserving healthy ligaments for natural joint sensation."
+            },
+            {
+              "id": "s2",
+              "title": "Minimally Invasive Rotator Cuff",
+              "description": "Arthroscopic micro-anchor reconstruction returning overhead athletes to competition safely."
+            },
+            {
+              "id": "s3",
+              "title": "Regenerative Orthobiologics",
+              "description": "Ultrasound-guided cellular injections for chronic tendonitis and osteoarthritis."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl7-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Get Back to the Activities and Sports You Love",
+          "description": "Consult our orthopedic team for an MRI review and personalized treatment pathway.",
+          "primaryButtonText": "Schedule Mobility Assessment",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl7-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "Vanguard Motion Orthopedics",
+          "copyrightText": "© 2026 Vanguard Motion Orthopedics. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-peds-01",
+    "slug": "little-sprouts-pediatrics",
+    "name": "Little Sprouts Pediatric Health",
+    "description": "Warm, child-friendly pediatric primary care, newborn wellness, developmental screenings, and vaccination plans.",
+    "industryId": "healthcare",
+    "categoryId": "pediatrician",
+    "collectionId": "pediatric-care",
+    "designStyle": "soft-pastel",
+    "tags": [
+      "pediatrics",
+      "children clinic",
+      "newborn care",
+      "vaccines",
+      "family medicine"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl8-nav",
+        "type": "navbar",
+        "variant": "navbar-floating",
+        "visible": true,
+        "content": {
+          "title": "LITTLE SPROUTS PEDIATRICS",
+          "primaryButtonText": "Schedule Visit",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Well-Child Care",
+              "href": "#services"
+            },
+            {
+              "label": "Our Pediatricians",
+              "href": "#team"
+            },
+            {
+              "label": "Sick Child Triage",
+              "href": "#sick"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl8-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Compassionate Care for Growing Minds & Bodies",
+          "title": "Nurturing Healthy Starts from Day One to College",
+          "subtitle": "A warm, zero-tears pediatric clinic where board-certified pediatricians partner with parents to monitor growth, milestones, and wellness.",
+          "primaryButtonText": "Book New Patient Well Visit",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "p1",
+              "label": "Same-Day Sick Visits",
+              "value": "100% Guaranteed"
+            },
+            {
+              "id": "p2",
+              "label": "Families Served",
+              "value": "9,500+"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl8-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Our Pediatric Services",
+          "items": [
+            {
+              "id": "ps1",
+              "title": "Newborn & Infant Checkups",
+              "description": "Feeding assessments, jaundice monitoring, and gentle developmental milestone tracking."
+            },
+            {
+              "id": "ps2",
+              "title": "Adolescent & Sports Physicals",
+              "description": "Comprehensive annual physicals, vision/hearing exams, and school clearance forms."
+            },
+            {
+              "id": "ps3",
+              "title": "Asthma & Allergy Management",
+              "description": "In-clinic spirometry, asthma action plans, and personalized environmental allergy control."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl8-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Join Our Little Sprouts Family Today",
+          "description": "Meet our pediatricians during a complimentary prenatal consultation or transfer your medical records seamlessly.",
+          "primaryButtonText": "Register Your Child",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl8-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Little Sprouts Pediatric Health",
+          "copyrightText": "© 2026 Little Sprouts Pediatrics. Member of American Academy of Pediatrics."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-onco-01",
+    "slug": "horizon-precision-oncology",
+    "name": "Horizon Precision Oncology Pavilion",
+    "description": "Cutting-edge comprehensive cancer institute providing genomic tumor profiling, targeted biologics, and immunotherapy.",
+    "industryId": "healthcare",
+    "categoryId": "oncology-clinic",
+    "collectionId": "oncology-institute",
+    "designStyle": "luxury-editorial",
+    "tags": [
+      "oncology",
+      "cancer center",
+      "immunotherapy",
+      "chemotherapy",
+      "clinical trials"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl9-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "HORIZON PRECISION ONCOLOGY",
+          "primaryButtonText": "Request Second Opinion",
+          "primaryButtonLink": "#consult",
+          "navLinks": [
+            {
+              "label": "Therapies",
+              "href": "#services"
+            },
+            {
+              "label": "Genomics",
+              "href": "#genomics"
+            },
+            {
+              "label": "Clinical Trials",
+              "href": "#trials"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl9-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Next-Generation Cancer Therapies",
+          "title": "Targeting Cancer at the Molecular Core",
+          "subtitle": "We combine whole-exome tumor sequencing, CAR-T cellular therapy, and compassionate integrative oncology to deliver tailored hope.",
+          "primaryButtonText": "Consult Oncology Tumor Board",
+          "primaryButtonLink": "#consult",
+          "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "oc1",
+              "label": "Active Phase I-III Trials",
+              "value": "48 Protocols"
+            },
+            {
+              "id": "oc2",
+              "label": "Genomic Match Rate",
+              "value": "94.2%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl9-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "title": "Advanced Oncology Modalities",
+          "items": [
+            {
+              "id": "o1",
+              "title": "Next-Gen Sequencing (NGS)",
+              "description": "Identification of actionable driver mutations to prescribe precision kinase inhibitors."
+            },
+            {
+              "id": "o2",
+              "title": "Targeted Immunotherapy Infusions",
+              "description": "Checkpoint inhibitors unlocking your body’s endogenous immune response against malignancy."
+            },
+            {
+              "id": "o3",
+              "title": "Integrative Supportive Oncology",
+              "description": "Oncology nutrition, acupuncture, and psychological support throughout treatment cycles."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl9-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Facing a New Diagnosis? Get an Expert Second Opinion Within 48 Hours",
+          "description": "Our multi-specialty tumor board reviews your biopsy pathology and scans promptly.",
+          "primaryButtonText": "Request Expedited Second Opinion",
+          "primaryButtonLink": "#consult"
+        }
+      },
+      {
+        "id": "hl9-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Horizon Precision Oncology Pavilion",
+          "copyrightText": "© 2026 Horizon Oncology Health Network. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-eye-01",
+    "slug": "vitreous-laser-eye",
+    "name": "Vitreous Laser Eye & Vision Institute",
+    "description": "Custom wavefront LASIK, SMILE laser vision correction, cataract surgery with premium toric lenses, and glaucoma care.",
+    "industryId": "healthcare",
+    "categoryId": "eye-clinic",
+    "collectionId": "ophthalmology",
+    "designStyle": "minimal-neutral",
+    "tags": [
+      "lasik",
+      "eye clinic",
+      "ophthalmology",
+      "cataract",
+      "vision correction"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl10-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "VITREOUS VISION INSTITUTE",
+          "primaryButtonText": "Free LASIK Exam",
+          "primaryButtonLink": "#lasik",
+          "navLinks": [
+            {
+              "label": "LASIK & SMILE",
+              "href": "#lasik"
+            },
+            {
+              "label": "Cataract Surgery",
+              "href": "#cataracts"
+            },
+            {
+              "label": "Surgeons",
+              "href": "#team"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl10-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Fladless Bladeless Laser Surgery",
+          "title": "See the World in 20/15 High Definition Clarity",
+          "subtitle": "Say goodbye to glasses and contacts with topography-guided Contoura LASIK and Zeiss VisuMax SMILE performed by Cornea-fellowship surgeons.",
+          "primaryButtonText": "Check Your LASIK Candidacy",
+          "primaryButtonLink": "#lasik",
+          "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "v1",
+              "label": "Laser Procedures Completed",
+              "value": "38,000+"
+            },
+            {
+              "id": "v2",
+              "label": "20/20 or Better Visual Acuity",
+              "value": "99.2%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl10-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Refractive & Surgical Eye Care",
+          "items": [
+            {
+              "id": "ey1",
+              "title": "Custom Contoura Wavefront LASIK",
+              "description": "Mapping 22,000 microscopic corneal elevations for crisp, night-glare-free vision."
+            },
+            {
+              "id": "ey2",
+              "title": "Zeiss SMILE Flapless Correction",
+              "description": "Tiny 2mm keyhole incision preserving corneal nerve stability for fast recovery."
+            },
+            {
+              "id": "ey3",
+              "title": "Premium Trifocal Cataract Lenses",
+              "description": "PanOptix and Vivity IOLs restoring effortless reading and distance vision simultaneously."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl10-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Take the First Step Toward Crystal-Clear Sight",
+          "description": "Book your complimentary 90-minute corneal mapping and dilated exam with our senior refractive surgeon.",
+          "primaryButtonText": "Book Free Evaluation",
+          "primaryButtonLink": "#lasik"
+        }
+      },
+      {
+        "id": "hl10-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Vitreous Vision Institute",
+          "copyrightText": "© 2026 Vitreous Eye & Laser Surgery. Fellow of American Academy of Ophthalmology."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-physio-01",
+    "slug": "kinetic-core-physiotherapy",
+    "name": "Kinetic Core Physical Rehabilitation",
+    "description": "Evidence-based physical therapy, post-operative rehabilitation, dry needling, and biomechanical return-to-sport testing.",
+    "industryId": "healthcare",
+    "categoryId": "physiotherapy-clinic",
+    "collectionId": "physiotherapy",
+    "designStyle": "modern-corporate",
+    "tags": [
+      "physiotherapy",
+      "rehab",
+      "physical therapy",
+      "dry needling",
+      "injury recovery"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl11-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "KINETIC CORE PHYSIO",
+          "primaryButtonText": "Book Initial Evaluation",
+          "primaryButtonLink": "#eval",
+          "navLinks": [
+            {
+              "label": "Programs",
+              "href": "#programs"
+            },
+            {
+              "label": "Conditions We Treat",
+              "href": "#conditions"
+            },
+            {
+              "label": "Direct Access",
+              "href": "#access"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl11-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Doctorate-Trained Physical Therapists",
+          "title": "Overcome Injury. Restore Functional Movement.",
+          "subtitle": "One-on-one 60-minute clinical sessions combining manual joint mobilization, dry needling, and progressive strength loading without aides.",
+          "primaryButtonText": "Schedule 60-Min Evaluation",
+          "primaryButtonLink": "#eval",
+          "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "pt1",
+              "label": "1-on-1 Therapist Time",
+              "value": "100%"
+            },
+            {
+              "id": "pt2",
+              "label": "Average Sessions to Discharge",
+              "value": "6.4 Visits"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl11-srv",
+        "type": "services",
+        "variant": "services-cards-accent",
+        "visible": true,
+        "content": {
+          "title": "Therapeutic Modalities",
+          "items": [
+            {
+              "id": "ptm1",
+              "title": "Post-Surgical ACL & Meniscus Rehab",
+              "description": "Criteria-based recovery tracking quad symmetry index and jump force plate metrics."
+            },
+            {
+              "id": "ptm2",
+              "title": "Trigger Point Dry Needling",
+              "description": "Deactivating chronic myofascial knots and restoring muscular blood perfusion instantly."
+            },
+            {
+              "id": "ptm3",
+              "title": "Spine & Disc Decompression Rehab",
+              "description": "McKenzie directional preference protocols stabilizing herniated and bulging discs."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl11-cta",
+        "type": "cta",
+        "variant": "cta-minimal-center",
+        "visible": true,
+        "content": {
+          "title": "No Doctor Referral Required to Start PT in Most States",
+          "description": "Benefit from direct access laws and begin your recovery without waiting weeks for an appointment.",
+          "primaryButtonText": "Start Recovery This Week",
+          "primaryButtonLink": "#eval"
+        }
+      },
+      {
+        "id": "hl11-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "Kinetic Core Physical Rehabilitation",
+          "copyrightText": "© 2026 Kinetic Core Physical Therapy. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-mental-01",
+    "slug": "mindscape-neuropsychiatry",
+    "name": "Mindscape Neuropsychiatry & Therapy",
+    "description": "Integrative psychiatry, TMS therapy, psychodynamic psychotherapy, and anxiety management in a serene clinical sanctuary.",
+    "industryId": "healthcare",
+    "categoryId": "mental-health-clinic",
+    "collectionId": "mental-health",
+    "designStyle": "organic-natural",
+    "tags": [
+      "psychiatry",
+      "therapy",
+      "mental health",
+      "tms",
+      "counseling",
+      "anxiety"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl12-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "MINDSCAPE HEALTH",
+          "primaryButtonText": "Confidential Intake",
+          "primaryButtonLink": "#intake",
+          "navLinks": [
+            {
+              "label": "Therapy Modalities",
+              "href": "#therapy"
+            },
+            {
+              "label": "TMS & Neurotherapies",
+              "href": "#tms"
+            },
+            {
+              "label": "Clinicians",
+              "href": "#team"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl12-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Compassionate Psychiatric Medicine",
+          "title": "Restoring Balance to Mind, Mood, and Cognition",
+          "subtitle": "A thoughtful sanctuary where board-certified psychiatrists and licensed therapists offer psychotherapy, medication management, and FDA-cleared Transcranial Magnetic Stimulation.",
+          "primaryButtonText": "Schedule Confidential Intake",
+          "primaryButtonLink": "#intake",
+          "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "mh1",
+              "label": "Treatment-Resistant Response",
+              "value": "78%"
+            },
+            {
+              "id": "mh2",
+              "label": "Licensed Psychotherapists",
+              "value": "18 Providers"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl12-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "title": "Integrative Clinical Care",
+          "items": [
+            {
+              "id": "m1",
+              "title": "Transcranial Magnetic Stimulation (TMS)",
+              "description": "Non-invasive, drug-free magnetic pulses revitalizing underactive neural circuits for major depression."
+            },
+            {
+              "id": "m2",
+              "title": "Cognitive Behavioral & ACT Psychotherapy",
+              "description": "Structured, evidence-based coping frameworks rewiring persistent anxious rumination."
+            },
+            {
+              "id": "m3",
+              "title": "Precision Medication Management",
+              "description": "Pharmacogenomic GeneSight testing identifying well-tolerated psychiatric medications."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl12-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "You Do Not Have to Walk This Path Alone",
+          "description": "Compassionate help is available in-person or via secure, HIPAA-compliant telehealth.",
+          "primaryButtonText": "Book Initial Confidential Session",
+          "primaryButtonLink": "#intake"
+        }
+      },
+      {
+        "id": "hl12-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Mindscape Neuropsychiatry & Therapy",
+          "copyrightText": "© 2026 Mindscape Behavioral Health Group. HIPAA Compliant."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-fertility-01",
+    "slug": "origin-reproductive-ivf",
+    "name": "Origin Reproductive Science Center",
+    "description": "World-renowned fertility clinic offering IVF, egg freezing, PGT-A genetic screening, and donor programs.",
+    "industryId": "healthcare",
+    "categoryId": "fertility-clinic",
+    "collectionId": "reproductive-health",
+    "designStyle": "soft-pastel",
+    "tags": [
+      "fertility",
+      "ivf",
+      "egg freezing",
+      "reproductive health",
+      "genetics"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl13-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "ORIGIN REPRODUCTIVE",
+          "primaryButtonText": "Book Fertility Consult",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "IVF & ICSI",
+              "href": "#ivf"
+            },
+            {
+              "label": "Egg Freezing",
+              "href": "#preservation"
+            },
+            {
+              "label": "Success Rates",
+              "href": "#rates"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl13-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "SART-Reported Top Tier IVF Lab",
+          "title": "Turning Hope into Family Through Advanced Embryology",
+          "subtitle": "Our world-class embryology laboratory uses time-lapse incubation and preimplantation genetic testing to maximize healthy live birth outcomes.",
+          "primaryButtonText": "Reserve Private Consult",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "f1",
+              "label": "Cumulative Live Birth Rate",
+              "value": "74.8%"
+            },
+            {
+              "id": "f2",
+              "label": "Healthy Babies Born",
+              "value": "14,200+"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl13-srv",
+        "type": "services",
+        "variant": "services-cards-accent",
+        "visible": true,
+        "content": {
+          "title": "Family-Building Treatments",
+          "items": [
+            {
+              "id": "iv1",
+              "title": "In Vitro Fertilization (IVF) & ICSI",
+              "description": "Customized stimulation protocols paired with intracytoplasmic sperm injection for highest fertilization."
+            },
+            {
+              "id": "iv2",
+              "title": "Elective Oocyte Cryopreservation",
+              "description": "Fast vitrification freezing eggs at peak reproductive quality for future family planning."
+            },
+            {
+              "id": "iv3",
+              "title": "PGT-A Chromosomal Aneuploidy Screening",
+              "description": "Next-generation sequencing ensuring transfer of chromosomally euploid embryos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl13-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Your Family Journey Starts with an Open Conversation",
+          "description": "Consult with our reproductive endocrinologists to review your AMH, ultrasound, and options.",
+          "primaryButtonText": "Schedule Fertility Consultation",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl13-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Origin Reproductive Science Center",
+          "copyrightText": "© 2026 Origin Reproductive Health. Member of Society for Assisted Reproductive Technology."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-ent-01",
+    "slug": "aura-ent-institute",
+    "name": "Aura Otolaryngology & Sinus Center",
+    "description": "Comprehensive ENT care, in-office balloon sinuplasty, audiology hearing aid center, and voice therapy.",
+    "industryId": "healthcare",
+    "categoryId": "ent-clinic",
+    "collectionId": "ent-health",
+    "designStyle": "medical-clean",
+    "tags": [
+      "ent",
+      "sinus surgery",
+      "hearing aids",
+      "audiology",
+      "allergy"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl14-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "AURA ENT INSTITUTE",
+          "primaryButtonText": "Book ENT Visit",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Sinus Relief",
+              "href": "#sinus"
+            },
+            {
+              "label": "Hearing & Audiology",
+              "href": "#hearing"
+            },
+            {
+              "label": "Snoring & Sleep",
+              "href": "#sleep"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl14-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Minimally Invasive ENT Care",
+          "title": "Breathe Easily. Hear Clearly. Live Completely.",
+          "subtitle": "From gentle in-office balloon sinus dilation for chronic sinusitis to diagnostic sound-booth audiograms and custom hearing solutions.",
+          "primaryButtonText": "Schedule Sinus or Ear Exam",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "e1",
+              "label": "Balloon Sinuplasties Done",
+              "value": "6,200+"
+            },
+            {
+              "id": "e2",
+              "label": "In-Office Recovery",
+              "value": "24 Hours"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl14-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Specialized ENT Treatments",
+          "items": [
+            {
+              "id": "en1",
+              "title": "In-Office Balloon Sinuplasty",
+              "description": "Restoring natural sinus drainage pathways under local anesthesia with zero bone cutting."
+            },
+            {
+              "id": "en2",
+              "title": "Comprehensive Audiology & Hearing",
+              "description": "Pure-tone audiometry, otoacoustic emissions, and invisible Bluetooth hearing aid fittings."
+            },
+            {
+              "id": "en3",
+              "title": "Sleep Apnea & Snoring Interventions",
+              "description": "Palatal stiffening and custom oral appliance therapies opening restricted upper airways."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl14-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "End Chronic Sinus Pressure and Nasal Congestion",
+          "description": "Experience permanent relief with an in-office evaluation and low-dose sinus CT scan.",
+          "primaryButtonText": "Consult an ENT Specialist",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl14-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Aura Otolaryngology & Sinus Center",
+          "copyrightText": "© 2026 Aura ENT Institute. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-clinic-01",
+    "slug": "harborview-family-clinic",
+    "name": "Harborview Family Medical Practice",
+    "description": "Community outpatient clinic offering comprehensive preventative checkups, chronic disease management, and lab draws.",
+    "industryId": "healthcare",
+    "categoryId": "medical-clinic",
+    "collectionId": "community-clinic",
+    "designStyle": "medical-clean",
+    "tags": [
+      "clinic",
+      "primary care",
+      "family medicine",
+      "checkups",
+      "blood tests"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl15-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "HARBORVIEW MEDICAL",
+          "primaryButtonText": "Same-Day Visit",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Services",
+              "href": "#services"
+            },
+            {
+              "label": "Our Providers",
+              "href": "#team"
+            },
+            {
+              "label": "Patient Portal",
+              "href": "#portal"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl15-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Trusted Primary Healthcare",
+          "title": "Personalized Primary Medicine for Every Stage of Life",
+          "subtitle": "A dedicated team of board-certified family doctors and nurse practitioners providing unhurried preventive checkups, lab draws, and wellness coaching.",
+          "primaryButtonText": "Schedule Routine Checkup",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "hb1",
+              "label": "Average Doctor Consultation",
+              "value": "35 Mins"
+            },
+            {
+              "id": "hb2",
+              "label": "Patients Managed Annually",
+              "value": "16,000+"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl15-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Full-Spectrum Outpatient Care",
+          "items": [
+            {
+              "id": "h1",
+              "title": "Annual Preventative Health Exam",
+              "description": "Comprehensive biometric screening, lipid analysis, organ function panels, and lifestyle reviews."
+            },
+            {
+              "id": "h2",
+              "title": "Hypertension & Diabetes Protocol",
+              "description": "Evidence-based blood pressure and HbA1c control preserving cardiovascular and renal health."
+            },
+            {
+              "id": "h3",
+              "title": "On-Site Diagnostic Phlebotomy",
+              "description": "Rapid same-day routine blood draws and urinalysis processed in accredited local labs."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl15-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Make Your Health a Priority This Year",
+          "description": "Accepting new patients across all commercial insurance, Medicare, and private pay.",
+          "primaryButtonText": "Book Primary Care Visit",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl15-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Harborview Family Medical Practice",
+          "copyrightText": "© 2026 Harborview Medical Associates. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-multispec-01",
+    "slug": "aegis-super-specialty",
+    "name": "Aegis Super-Specialty Medical Tower",
+    "description": "Tertiary healthcare center housing robotic surgery, cardiovascular catheterization, and intensive care units.",
+    "industryId": "healthcare",
+    "categoryId": "multispecialty-hospital",
+    "collectionId": "clinical-trust",
+    "designStyle": "modern-corporate",
+    "tags": [
+      "hospital",
+      "multispecialty",
+      "surgery",
+      "trauma",
+      "tertiary care"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl16-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "AEGIS SUPER-SPECIALTY",
+          "badge": "JCI Accredited",
+          "primaryButtonText": "Find Specialist",
+          "primaryButtonLink": "#find",
+          "navLinks": [
+            {
+              "label": "Clinical Institutes",
+              "href": "#institutes"
+            },
+            {
+              "label": "Surgical Theatres",
+              "href": "#surgery"
+            },
+            {
+              "label": "International Patients",
+              "href": "#international"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl16-hero",
+        "type": "hero",
+        "variant": "hero-bento",
+        "visible": true,
+        "content": {
+          "badge": "International Clinical Standards",
+          "title": "Integrated Super-Specialty Care Across Every Discipline",
+          "subtitle": "Featuring 40+ clinical departments, hybrid catheterization operating suites, and da Vinci Xi robotic surgical systems under one roof.",
+          "primaryButtonText": "Explore Clinical Centers",
+          "primaryButtonLink": "#institutes",
+          "imageUrl": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "ag1",
+              "label": "Surgeons & Physicians",
+              "value": "320+ MDs"
+            },
+            {
+              "id": "ag2",
+              "label": "Robotic Interventions",
+              "value": "7,500+"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl16-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Clinical Centers of Excellence",
+          "items": [
+            {
+              "id": "ae1",
+              "title": "Advanced Robotic Surgery",
+              "description": "Sub-millimeter da Vinci precision minimizing blood loss and hospital stay."
+            },
+            {
+              "id": "ae2",
+              "title": "Organ Transplant Institute",
+              "description": "Multi-organ transplant team with survival rates exceeding national benchmarks."
+            },
+            {
+              "id": "ae3",
+              "title": "Critical Care & ECMO Center",
+              "description": "State-of-the-art extracorporeal membrane oxygenation supporting acute cardiopulmonary failure."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl16-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "World-Class Clinical Expertise for Complex Cases",
+          "description": "Consult with our chief specialists or transfer a patient to our tertiary care center.",
+          "primaryButtonText": "Contact Admissions Center",
+          "primaryButtonLink": "#find"
+        }
+      },
+      {
+        "id": "hl16-foot",
+        "type": "footer",
+        "variant": "footer-multi-column",
+        "visible": true,
+        "content": {
+          "title": "Aegis Super-Specialty Medical Center",
+          "copyrightText": "© 2026 Aegis Health Foundation. Joint Commission Accredited."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-gp-01",
+    "slug": "oakwood-private-physician",
+    "name": "Oakwood Concierge Primary Medicine",
+    "description": "Private concierge medical practice providing 24/7 direct physician access, unhurried 60-minute appointments, and annual longevity assessments.",
+    "industryId": "healthcare",
+    "categoryId": "general-physician",
+    "collectionId": "personal-physician",
+    "designStyle": "luxury-editorial",
+    "tags": [
+      "concierge medicine",
+      "private doctor",
+      "longevity",
+      "family physician",
+      "executive health"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl17-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "OAKWOOD CONCIERGE",
+          "primaryButtonText": "Membership Inquiry",
+          "primaryButtonLink": "#membership",
+          "navLinks": [
+            {
+              "label": "Philosophy",
+              "href": "#about"
+            },
+            {
+              "label": "Member Benefits",
+              "href": "#benefits"
+            },
+            {
+              "label": "Dr. Oakwood",
+              "href": "#physician"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl17-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Limited to 150 Families Worldwide",
+          "title": "Medicine as It Was Meant to Be Practiced: Personal, Unhurried, Direct.",
+          "subtitle": "Direct cell phone access to your personal physician, same-day house calls, and deep diagnostic longevity testing.",
+          "primaryButtonText": "Request Private Membership",
+          "primaryButtonLink": "#membership",
+          "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "ok1",
+              "label": "Maximum Patient Roster",
+              "value": "150 Patients"
+            },
+            {
+              "id": "ok2",
+              "label": "Direct Response Time",
+              "value": "< 15 Mins"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl17-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "title": "The Concierge Standard of Care",
+          "items": [
+            {
+              "id": "o1",
+              "title": "Comprehensive Longevity Biometrics",
+              "description": "Full-body MRI screening, VO2 max testing, early cardiac imaging, and continuous glucose monitoring."
+            },
+            {
+              "id": "o2",
+              "title": "Global Medical Coordination",
+              "description": "Direct referrals to top department heads at Mayo Clinic, Johns Hopkins, and Cleveland Clinic."
+            },
+            {
+              "id": "o3",
+              "title": "Home & Travel Healthcare Support",
+              "description": "In-home clinical visits and expedited travel medical kits tailored to your destination."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl17-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Experience Healthcare Without Waiting Rooms or Assembly-Line Medicine",
+          "description": "Schedule a private coffee consultation with Dr. Oakwood to discuss our practice philosophy.",
+          "primaryButtonText": "Inquire About Open Roster Slots",
+          "primaryButtonLink": "#membership"
+        }
+      },
+      {
+        "id": "hl17-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Oakwood Concierge Primary Medicine",
+          "copyrightText": "© 2026 Oakwood Private Medical Practice. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-plastic-01",
+    "slug": "sculpt-contour-aesthetic",
+    "name": "Sculpt & Contour Aesthetic Surgery",
+    "description": "Board-certified plastic surgery center specializing in deep plane facelifts, rhinoplasty, breast aesthetics, and body contouring.",
+    "industryId": "healthcare",
+    "categoryId": "plastic-surgeon",
+    "collectionId": "plastic-surgery",
+    "designStyle": "high-fashion",
+    "tags": [
+      "plastic surgery",
+      "rhinoplasty",
+      "facelift",
+      "cosmetic surgery",
+      "body contouring"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl18-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "SCULPT & CONTOUR",
+          "primaryButtonText": "Consult Surgeon",
+          "primaryButtonLink": "#consult",
+          "navLinks": [
+            {
+              "label": "Facial Aesthetics",
+              "href": "#face"
+            },
+            {
+              "label": "Body Contouring",
+              "href": "#body"
+            },
+            {
+              "label": "Before & Afters",
+              "href": "#gallery"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl18-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Board-Certified Plastic & Reconstructive Surgery",
+          "title": "Anatomy in Balance. Natural, Enduring Elegance.",
+          "subtitle": "World-renowned plastic surgery focused on structural anatomical restoration, preserving facial individuality without an over-operated appearance.",
+          "primaryButtonText": "Book Private Consultation",
+          "primaryButtonLink": "#consult",
+          "imageUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "sc1",
+              "label": "Facial Restorations",
+              "value": "4,500+"
+            },
+            {
+              "id": "sc2",
+              "label": "Quad-A Accredited Surgical Suite",
+              "value": "100% On-Site"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl18-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "title": "Signature Aesthetic Procedures",
+          "items": [
+            {
+              "id": "pl1",
+              "title": "Deep Plane Extended Rhytidectomy",
+              "description": "Repositioning deep facial retaining ligaments and SMAS for natural, un-pulled jawline definition."
+            },
+            {
+              "id": "pl2",
+              "title": "Preservation Ultrasonic Rhinoplasty",
+              "description": "Piezoelectric micro-sculpting of nasal bones without cartilage trauma, reducing bruising."
+            },
+            {
+              "id": "pl3",
+              "title": "High-Definition Liposculpture",
+              "description": "Selective ultrasonic fat harvesting and precise anatomical athletic muscle shadowing."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl18-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Transform Your Vision with 3D Vectra Computer Simulation",
+          "description": "Visualize your surgical outcomes in ultra-high-definition 3D prior to any procedure.",
+          "primaryButtonText": "Schedule Confidential Consultation",
+          "primaryButtonLink": "#consult"
+        }
+      },
+      {
+        "id": "hl18-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "Sculpt & Contour Aesthetic Surgery",
+          "copyrightText": "© 2026 Sculpt & Contour Surgery Atelier. American Board of Plastic Surgery."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-nephro-01",
+    "slug": "meridian-nephrology-kidney",
+    "name": "Meridian Nephrology & Hypertension",
+    "description": "Specialized kidney care clinic delivering chronic kidney disease (CKD) staging, home dialysis support, and resistant hypertension management.",
+    "industryId": "healthcare",
+    "categoryId": "nephrologist",
+    "collectionId": "kidney-care",
+    "designStyle": "medical-clean",
+    "tags": [
+      "nephrology",
+      "kidney care",
+      "dialysis",
+      "hypertension",
+      "renal"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl19-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "MERIDIAN NEPHROLOGY",
+          "primaryButtonText": "Consult Nephrologist",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Kidney Health",
+              "href": "#kidney"
+            },
+            {
+              "label": "Hypertension",
+              "href": "#pressure"
+            },
+            {
+              "label": "Dialysis Center",
+              "href": "#dialysis"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl19-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Clinical Renal Care Specialists",
+          "title": "Preserving Renal Function and Managing Blood Pressure",
+          "subtitle": "Our nephrology team provides targeted pharmaceutical protocols to arrest the progression of chronic kidney disease and manage complex renal disorders.",
+          "primaryButtonText": "Book Nephrology Consult",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "np1",
+              "label": "CKD Progression Retardation",
+              "value": "88%"
+            },
+            {
+              "id": "np2",
+              "label": "Home Dialysis Patient Ratio",
+              "value": "42%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl19-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Specialized Renal Interventions",
+          "items": [
+            {
+              "id": "np_s1",
+              "title": "CKD Staging & SGLT2 Inhibitor Therapy",
+              "description": "Early deployment of renoprotective therapeutics halting eGFR decline."
+            },
+            {
+              "id": "np_s2",
+              "title": "Secondary Hypertension Workup",
+              "description": "Screening for renal artery stenosis, hyperaldosteronism, and refractory vascular resistance."
+            },
+            {
+              "id": "np_s3",
+              "title": "Peritoneal & Home Hemodialysis Training",
+              "description": "Empowering patients with modern nocturnal automated home dialysis systems."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl19-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Take Proactive Action on Your Kidney Health Today",
+          "description": "Consult our clinical nephrologists for an eGFR and proteinuria analysis.",
+          "primaryButtonText": "Schedule Specialist Evaluation",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl19-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Meridian Nephrology & Hypertension",
+          "copyrightText": "© 2026 Meridian Renal Group. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-endo-01",
+    "slug": "metabolic-balance-endocrine",
+    "name": "Metabolic Balance Endocrine Clinic",
+    "description": "Expert endocrine care for Hashimoto thyroiditis, continuous glucose monitoring, PCOS, and metabolic hormone optimization.",
+    "industryId": "healthcare",
+    "categoryId": "endocrinologist",
+    "collectionId": "endocrine-health",
+    "designStyle": "minimal-neutral",
+    "tags": [
+      "endocrinology",
+      "thyroid",
+      "diabetes",
+      "cgm",
+      "hormones",
+      "metabolism"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl20-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "METABOLIC BALANCE",
+          "primaryButtonText": "Book Assessment",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Thyroid Care",
+              "href": "#thyroid"
+            },
+            {
+              "label": "Diabetes & CGM",
+              "href": "#diabetes"
+            },
+            {
+              "label": "Hormone Optimization",
+              "href": "#hormones"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl20-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Precision Metabolic Medicine",
+          "title": "Restoring Hormonal Harmony and Cellular Vitality",
+          "subtitle": "From fine-needle thyroid nodule aspiration to continuous glucose sensor optimization, we pinpoint the root cause of fatigue, weight resistance, and endocrine dysfunction.",
+          "primaryButtonText": "Book Metabolic Hormone Panel",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "mb1",
+              "label": "Average HbA1c Reduction",
+              "value": "-1.8%"
+            },
+            {
+              "id": "mb2",
+              "label": "Thyroid Optimization Rate",
+              "value": "94%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl20-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Targeted Endocrine Interventions",
+          "items": [
+            {
+              "id": "mb_s1",
+              "title": "Comprehensive Thyroid Ultrasound & FNA",
+              "description": "In-office TIRADS grading and painless fine-needle aspiration of thyroid nodules."
+            },
+            {
+              "id": "mb_s2",
+              "title": "Automated Insulin Pump & CGM Optimization",
+              "description": "Closed-loop artificial pancreas tuning for seamless type 1 and type 2 glycemic control."
+            },
+            {
+              "id": "mb_s3",
+              "title": "PCOS & Reproductive Hormone Therapy",
+              "description": "Addressing insulin resistance, androgen excess, and restoring ovulatory cycles naturally."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl20-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Regain Energy and Metabolic Control",
+          "description": "Consult our endocrinologists for comprehensive hormonal testing and metabolic planning.",
+          "primaryButtonText": "Schedule Consultation",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl20-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "Metabolic Balance Endocrine Clinic",
+          "copyrightText": "© 2026 Metabolic Balance Health. Member of Endocrine Society."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-diag-01",
+    "slug": "vividscan-diagnostic-imaging",
+    "name": "VividScan 3T MRI & Diagnostic Imaging",
+    "description": "Sub-millimeter 3T magnetic resonance imaging, low-dose multi-slice CT, 3D mammography, and ultrasound with same-day reports.",
+    "industryId": "healthcare",
+    "categoryId": "diagnostic-center",
+    "collectionId": "diagnostic-imaging",
+    "designStyle": "technology-gradient",
+    "tags": [
+      "mri",
+      "radiology",
+      "ct scan",
+      "ultrasound",
+      "mammography",
+      "imaging"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl21-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "VIVIDSCAN RADIOLOGY",
+          "primaryButtonText": "Schedule Scan",
+          "primaryButtonLink": "#schedule",
+          "navLinks": [
+            {
+              "label": "3T MRI",
+              "href": "#mri"
+            },
+            {
+              "label": "Low-Dose CT",
+              "href": "#ct"
+            },
+            {
+              "label": "Physician Orders",
+              "href": "#orders"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl21-hero",
+        "type": "hero",
+        "variant": "hero-cinematic-dark",
+        "visible": true,
+        "content": {
+          "badge": "Next-Generation Radiologic Precision",
+          "title": "High-Resolution Diagnostic Imaging. Zero Claustrophobia.",
+          "subtitle": "Featuring wide-bore 3T Siemens Magnetom MRI scanners, ambient ceiling skylights, and sub-specialty fellowship radiologist reads within 4 hours.",
+          "primaryButtonText": "Book an Imaging Exam",
+          "primaryButtonLink": "#schedule",
+          "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "vs1",
+              "label": "Magnet Strength",
+              "value": "3.0 Tesla"
+            },
+            {
+              "id": "vs2",
+              "label": "Report Turnaround Time",
+              "value": "< 4 Hours"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl21-srv",
+        "type": "services",
+        "variant": "services-bento",
+        "visible": true,
+        "content": {
+          "title": "Advanced Diagnostic Scans",
+          "items": [
+            {
+              "id": "vs_s1",
+              "title": "Wide-Bore 3T Neuro & Musculoskeletal MRI",
+              "description": "Ultra-fast scan sequences with 70cm wide bore and acoustic noise dampening."
+            },
+            {
+              "id": "vs_s2",
+              "title": "Low-Dose Spectral CT & Coronary Angiography",
+              "description": "80% reduced radiation dose capturing clear non-invasive heart artery images."
+            },
+            {
+              "id": "vs_s3",
+              "title": "3D Tomosynthesis Mammography",
+              "description": "Layer-by-layer breast imaging increasing early cancer detection by 40%."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl21-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Fast, Comfortable Scans with Rapid Radiologist Reports",
+          "description": "Upload your doctor referral slip or schedule an appointment online.",
+          "primaryButtonText": "Upload Referral & Schedule",
+          "primaryButtonLink": "#schedule"
+        }
+      },
+      {
+        "id": "hl21-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "VividScan Diagnostic Imaging",
+          "copyrightText": "© 2026 VividScan Imaging Network. ACR Accredited Facility."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-antiaging-01",
+    "slug": "auraglow-anti-aging-clinic",
+    "name": "AuraGlow Clinical Anti-Aging Atelier",
+    "description": "Regenerative cellular longevity clinic offering bio-identical hormone replacement (BHRT), NAD+ IV therapy, and senolytic peptides.",
+    "industryId": "healthcare",
+    "categoryId": "anti-aging-clinic",
+    "collectionId": "anti-aging",
+    "designStyle": "luxury-editorial",
+    "tags": [
+      "anti-aging",
+      "longevity",
+      "peptides",
+      "hormone replacement",
+      "wellness",
+      "cellular health"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl22-nav",
+        "type": "navbar",
+        "variant": "navbar-glass",
+        "visible": true,
+        "content": {
+          "title": "AURAGLOW LONGEVITY",
+          "primaryButtonText": "Book Longevity Consult",
+          "primaryButtonLink": "#book",
+          "navLinks": [
+            {
+              "label": "Protocols",
+              "href": "#protocols"
+            },
+            {
+              "label": "Cellular Therapies",
+              "href": "#cellular"
+            },
+            {
+              "label": "Physicians",
+              "href": "#team"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl22-hero",
+        "type": "hero",
+        "variant": "hero-editorial-luxury",
+        "visible": true,
+        "content": {
+          "badge": "Evidence-Based Cellular Rejuvenation",
+          "title": "Optimizing Biological Age from the Inside Out",
+          "subtitle": "Our longevity physicians utilize epigenetic DNA methylation clocks, intracellular NAD+ repletion, and individualized peptide therapeutics to extend healthspan.",
+          "primaryButtonText": "Reserve Longevity Evaluation",
+          "primaryButtonLink": "#book",
+          "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "ag1",
+              "label": "Average Biological Age Drop",
+              "value": "-3.8 Yrs"
+            },
+            {
+              "id": "ag2",
+              "label": "Cellular Protocols Designed",
+              "value": "5,000+"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl22-srv",
+        "type": "services",
+        "variant": "services-editorial-list",
+        "visible": true,
+        "content": {
+          "title": "Rejuvenation Therapies",
+          "items": [
+            {
+              "id": "ag_s1",
+              "title": "Cellular NAD+ Mitochondrial Infusions",
+              "description": "Replenishing vital cofactors supporting DNA repair enzymes and mitochondrial energy output."
+            },
+            {
+              "id": "ag_s2",
+              "title": "Bio-Identical Hormone Optimization (BHRT)",
+              "description": "Precision micro-dosed physiologic pellets restoring vigor, deep sleep, and lean muscle mass."
+            },
+            {
+              "id": "ag_s3",
+              "title": "Epigenetic Biological Age Testing",
+              "description": "Illumina methylation profiling measuring true biological speed of cellular aging."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl22-cta",
+        "type": "cta",
+        "variant": "cta-editorial-split",
+        "visible": true,
+        "content": {
+          "title": "Invest in Your Healthspan and Peak Vitality",
+          "description": "Consult with our longevity specialists for a comprehensive biomarker analysis.",
+          "primaryButtonText": "Begin Longevity Program",
+          "primaryButtonLink": "#book"
+        }
+      },
+      {
+        "id": "hl22-foot",
+        "type": "footer",
+        "variant": "footer-dark-editorial",
+        "visible": true,
+        "content": {
+          "title": "AuraGlow Clinical Anti-Aging Atelier",
+          "copyrightText": "© 2026 AuraGlow Longevity Medicine. All rights reserved."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-urgent-01",
+    "slug": "expressrelief-urgent-care",
+    "name": "ExpressRelief 24/7 Urgent Medical Care",
+    "description": "Immediate walk-in medical center with digital X-ray, laceration suturing, fracture splinting, and rapid point-of-care lab testing.",
+    "industryId": "healthcare",
+    "categoryId": "ambulance-service",
+    "collectionId": "urgent-care",
+    "designStyle": "medical-clean",
+    "tags": [
+      "urgent care",
+      "emergency",
+      "walk-in clinic",
+      "x-ray",
+      "laceration"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl23-nav",
+        "type": "navbar",
+        "variant": "navbar-solid-pill",
+        "visible": true,
+        "content": {
+          "title": "EXPRESSRELIEF URGENT CARE",
+          "badge": "Open 24/7",
+          "primaryButtonText": "Check-In Online",
+          "primaryButtonLink": "#checkin",
+          "navLinks": [
+            {
+              "label": "Walk-In Services",
+              "href": "#services"
+            },
+            {
+              "label": "Wait Times",
+              "href": "#wait"
+            },
+            {
+              "label": "Insurance",
+              "href": "#insurance"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl23-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "Walk-Ins Welcome • Zero Appointments Needed",
+          "title": "Immediate Clinical Care When You Cannot Wait",
+          "subtitle": "From sudden fractures, sprains, and deep cuts to acute infections, our board-certified emergency clinicians are ready 24 hours a day with digital X-ray on site.",
+          "primaryButtonText": "Hold Your Spot in Line",
+          "primaryButtonLink": "#checkin",
+          "imageUrl": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "ur1",
+              "label": "Average Door-to-Doctor",
+              "value": "< 15 Mins"
+            },
+            {
+              "id": "ur2",
+              "label": "Patient Rating",
+              "value": "4.9 / 5.0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl23-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Immediate Medical Capabilities",
+          "items": [
+            {
+              "id": "ur_s1",
+              "title": "Digital X-Ray & Fracture Care",
+              "description": "Immediate skeletal imaging, bone fracture reduction, fiberglass splinting, and crutch fitting."
+            },
+            {
+              "id": "ur_s2",
+              "title": "Laceration Repair & Abscess Treatment",
+              "description": "Cosmetic dermal sutures, wound debridement, and local anesthesia under sterile conditions."
+            },
+            {
+              "id": "ur_s3",
+              "title": "Rapid Viral & Bacterial Lab Panels",
+              "description": "10-minute PCR results for Strep, Flu A/B, COVID-19, and urinary tract infections."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl23-cta",
+        "type": "cta",
+        "variant": "cta-banner-glow",
+        "visible": true,
+        "content": {
+          "title": "Skip the Crowded Hospital ER for Non-Life-Threatening Needs",
+          "description": "Walk in right now or reserve a time online. All major insurance accepted.",
+          "primaryButtonText": "Check Current Wait Time",
+          "primaryButtonLink": "#checkin"
+        }
+      },
+      {
+        "id": "hl23-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "ExpressRelief 24/7 Urgent Medical Care",
+          "copyrightText": "© 2026 ExpressRelief Health Network. Certified Urgent Care Center."
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-lab-01",
+    "slug": "biopharma-molecular-lab",
+    "name": "BioPharma Molecular Diagnostic Lab",
+    "description": "High-complexity CLIA & CAP accredited pathology laboratory conducting biomarker discovery, PCR diagnostics, and toxicology.",
+    "industryId": "healthcare",
+    "categoryId": "medical-laboratory",
+    "collectionId": "clinical-lab",
+    "designStyle": "minimal-neutral",
+    "tags": [
+      "laboratory",
+      "pathology",
+      "diagnostics",
+      "pcr",
+      "biomarkers",
+      "molecular biology"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "id": "hl24-nav",
+        "type": "navbar",
+        "variant": "navbar-minimal",
+        "visible": true,
+        "content": {
+          "title": "BIOPHARMA LABS",
+          "primaryButtonText": "Client Portal",
+          "primaryButtonLink": "#portal",
+          "navLinks": [
+            {
+              "label": "Test Menu",
+              "href": "#tests"
+            },
+            {
+              "label": "Quality & Accreditation",
+              "href": "#quality"
+            },
+            {
+              "label": "Clinical Trials",
+              "href": "#trials"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl24-hero",
+        "type": "hero",
+        "variant": "hero-split",
+        "visible": true,
+        "content": {
+          "badge": "CAP Accredited & CLIA Certified Laboratory",
+          "title": "Molecular Diagnostic Precision at Commercial Scale",
+          "subtitle": "Automated high-throughput robotic liquid handlers, mass spectrometry, and multiplex PCR assays delivering accurate diagnostic data to hospitals and biotechs.",
+          "primaryButtonText": "Explore Test Directory",
+          "primaryButtonLink": "#tests",
+          "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80",
+          "stats": [
+            {
+              "id": "lb1",
+              "label": "Annual Clinical Tests",
+              "value": "2.4 Million"
+            },
+            {
+              "id": "lb2",
+              "label": "Analytical Specificity",
+              "value": "99.98%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl24-srv",
+        "type": "services",
+        "variant": "services-grid",
+        "visible": true,
+        "content": {
+          "title": "Laboratory Capabilities",
+          "items": [
+            {
+              "id": "lb_s1",
+              "title": "Multiplex Quantitative RT-PCR",
+              "description": "Simultaneous detection of dozens of pathogen gene targets with automated robotic extraction."
+            },
+            {
+              "id": "lb_s2",
+              "title": "Liquid Chromatography Tandem MS/MS",
+              "description": "Ultra-sensitive quantification of steroid hormones, vitamin D metabolites, and therapeutic drugs."
+            },
+            {
+              "id": "lb_s3",
+              "title": "Histopathology & Immunofluorescence",
+              "description": "Expert pathologist reviews for biopsy specimens with digital slide telepathology integration."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hl24-cta",
+        "type": "cta",
+        "variant": "cta-minimal-center",
+        "visible": true,
+        "content": {
+          "title": "Partner with BioPharma for Fast, Reliable Diagnostic Assays",
+          "description": "Courier specimen pickup and digital API integration available for clinics and health networks.",
+          "primaryButtonText": "Request Institutional Account",
+          "primaryButtonLink": "#portal"
+        }
+      },
+      {
+        "id": "hl24-foot",
+        "type": "footer",
+        "variant": "footer-minimal-clean",
+        "visible": true,
+        "content": {
+          "title": "BioPharma Molecular Diagnostic Lab",
+          "copyrightText": "© 2026 BioPharma Laboratory Systems. CAP & CLIA Certified."
+        }
+      }
+    ]
+  }
+];
