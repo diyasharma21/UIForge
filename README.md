@@ -1,6 +1,13 @@
 # UIForge — Multi-Industry Website Template Marketplace & Visual Page Builder
 
-**UIForge** is a 100% free, production-ready website template marketplace and visual page builder. It allows users to discover, preview, customize, and export professionally designed website landing pages for 25 distinct industries and 300+ specialized categories—ranging from medical clinics and universities to cafes, SaaS startups, luxury resorts, and creative portfolios.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-ui--forge--bice.vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://ui-forge-bice.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Templates](https://img.shields.io/badge/Templates-363%20Available-purple?style=for-the-badge)](https://ui-forge-bice.vercel.app/)
+[![Industries](https://img.shields.io/badge/Industries-25%20Covered-blue?style=for-the-badge)](https://ui-forge-bice.vercel.app/)
+
+> 🚀 **Live Application**: **[https://ui-forge-bice.vercel.app/](https://ui-forge-bice.vercel.app/)**
+
+**UIForge** is a 100% free, production-ready website template marketplace and visual page builder. It allows users to discover, preview, customize, and export professionally designed website landing pages for 25 distinct industries and 243 specialized categories with 363 authentic templates—ranging from medical clinics and universities to cafes, SaaS startups, luxury resorts, and creative portfolios.
 
 Built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Framer Motion**, **Zustand**, **Zod**, and **JSZip**, UIForge operates entirely client-side with zero mandatory logins, zero subscriptions, zero tracking, and zero lock-in exports.
 
@@ -9,6 +16,8 @@ Built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Framer
 ## 📖 About UIForge
 
 **UIForge** is an open-source, client-first website template marketplace and visual design studio created by [Diya Sharma](https://github.com/diyasharma21).
+
+🔗 **Live Platform URL**: **[https://ui-forge-bice.vercel.app/](https://ui-forge-bice.vercel.app/)**
 
 ### 🎯 The Mission
 Building a modern, agency-grade website shouldn't require paying $50–$200 per template or locking yourself into expensive recurring hosting subscriptions. UIForge was architected from the ground up to democratize high-fidelity web design for every industry, practitioner, and creator:
@@ -270,6 +279,8 @@ UIForge is released under the **MIT License**. It is 100% free for commercial an
 ## 👩‍💻 Author & Maintainer
 
 Created and maintained with ❤️ by **Diya Sharma**
-- GitHub: [@diyasharma21](https://github.com/diyasharma21)
-- Repository: [github.com/diyasharma21/UIForge](https://github.com/diyasharma21/UIForge)
+- **Live Deployment**: [https://ui-forge-bice.vercel.app/](https://ui-forge-bice.vercel.app/)
+- **GitHub**: [@diyasharma21](https://github.com/diyasharma21)
+- **Repository**: [github.com/diyasharma21/UIForge](https://github.com/diyasharma21/UIForge)
+
 
