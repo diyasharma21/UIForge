@@ -2,7 +2,22 @@
 
 **UIForge** is a 100% free, production-ready website template marketplace and visual page builder. It allows users to discover, preview, customize, and export professionally designed website landing pages for 25 distinct industries and 300+ specialized categories—ranging from medical clinics and universities to cafes, SaaS startups, luxury resorts, and creative portfolios.
 
-Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Framer Motion**, **Zustand**, **Zod**, and **JSZip**, UIForge operates entirely client-side with zero mandatory logins, zero subscriptions, zero tracking, and zero lock-in exports.
+Built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Framer Motion**, **Zustand**, **Zod**, and **JSZip**, UIForge operates entirely client-side with zero mandatory logins, zero subscriptions, zero tracking, and zero lock-in exports.
+
+---
+
+## 📖 About UIForge
+
+**UIForge** is an open-source, client-first website template marketplace and visual design studio created by [Diya Sharma](https://github.com/diyasharma21).
+
+### 🎯 The Mission
+Building a modern, agency-grade website shouldn't require paying $50–$200 per template or locking yourself into expensive recurring hosting subscriptions. UIForge was architected from the ground up to democratize high-fidelity web design for every industry, practitioner, and creator:
+
+- **100% Free & Open**: No paywalls, no recurring fees, and no feature gating. Every template, component, and design system is completely free.
+- **Zero Lock-In**: Export clean, production-ready **HTML/CSS**, **React (TSX)**, **Tailwind CSS**, and **JSON** configurations that you own 100%. Deploy to Vercel, Netlify, GitHub Pages, or any server.
+- **Complete Industry Coverage**: Spans **25 industries** and **243 categories** with **363 art-directed templates**—guaranteeing that every single business type has authentic, ready-to-use layouts.
+- **15 Universal Design Systems**: Seamlessly switch any template between curated aesthetics like *Luxury Editorial*, *Dark Cinematic*, *Medical Clean*, *Technology Gradient*, and *Academic Classic*.
+- **Privacy-First Architecture**: Runs completely in your browser. All customizations, favorites, and history persist in `localStorage` without tracking or telemetry.
 
 ---
 
@@ -11,7 +26,7 @@ Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Framer Mo
 ### 1. Public Marketplace
 - **Art-Directed Homepage**: Features live template showcases, popular category pills with verified counts, curated collections, design system tokens, and a full 25-industry exploration directory.
 - **25 Industry Taxonomy**: 25 top-level industries covering healthcare, education, dining, fitness, tech, hospitality, retail, real estate, legal, and more.
-- **300+ Specialized Categories**: Filter down to exact business types (e.g. *Dermatologist*, *Orthopedic Clinic*, *Montessori School*, *Coffee Roastery*, *Fine Dining*, *SaaS AI Platform*).
+- **243 Specialized Categories**: Filter down to exact business types (e.g. *Neurosurgeon*, *Primary School*, *Organic Farm*, *Gaming Studio*, *Fine Dining*, *SaaS AI Platform*).
 - **Curated Collections**: Intentional design directions like *Luxury Dermatology*, *Modern Medical*, *Dark Cinematic SaaS*, *Nordic Artisanal Cafe*, and *High Fashion Editorial*.
 - **Real-Time Search & Filters**: Search across template names, keywords, categories, and tags. Filter by industry, category, and 15 design systems with active chip indicators.
 - **Client-Side Persistence**: Favorites and recently viewed templates are saved automatically in browser `localStorage`.
@@ -249,3 +264,12 @@ Export it and add it to `ALL_TEMPLATES` in `src/data/templates/index.ts`. Run `n
 ## 📄 License & Philosophy
 
 UIForge is released under the **MIT License**. It is 100% free for commercial and personal use. All exported code belongs entirely to you with zero royalty or platform restrictions.
+
+---
+
+## 👩‍💻 Author & Maintainer
+
+Created and maintained with ❤️ by **Diya Sharma**
+- GitHub: [@diyasharma21](https://github.com/diyasharma21)
+- Repository: [github.com/diyasharma21/UIForge](https://github.com/diyasharma21/UIForge)
+
